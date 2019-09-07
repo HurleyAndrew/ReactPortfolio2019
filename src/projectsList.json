@@ -1,0 +1,35 @@
+{
+  "Projects": [{
+      "id": 1,
+      "title": "Demo Reel",
+      "tags": "none",
+      "date": "Spring 2019",
+      "link": "wegmanshero.png",
+      "image": "demoreel.png"
+    },
+    {
+      "id": 2,
+      "title": "Wegmans Forecast",
+      "tags": "Internship Product Design UX",
+      "date": "Summer 2019",
+      "link": "wegmanshero",
+      "image": "wegmansHero.png"
+    },
+    {
+      "id": 3,
+      "title": "Chore Management",
+      "tags": "UX 3D",
+      "date": "Spring 2019",
+      "link": "choremanagement",
+      "image": "choremanagement.png"
+    },
+    {
+      "id": 4,
+      "title": "3D Design",
+      "tags": "3D Experimental",
+      "date": "2018-2019",
+      "link": "3ddesign",
+      "image": "3ddesign.png"
+    }
+  ]
+}

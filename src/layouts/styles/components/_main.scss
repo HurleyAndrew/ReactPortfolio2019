@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|IBM+Plex+Serif&display=swap');
+
+html {
+  background-color: #101214;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: top;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.buttonContainer {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  font-family: IBM Plex Mono;
+  color: white;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 0px;
+  text-align: center;
+  opacity: 1;
+  transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.projectContainer {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  align-self: center;
+  justify-content: center;
+  /* margin-left: 120px; */
+  /* margin-right: 80px; */
+}
+
+.pageCounter {
+  font-family: IBM Plex Mono;
+  color: white;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.projectNavigation {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  /* margin-left: 120px; */
+  margin-right: 120px;
+}
+
+.projectNavigationInfo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.buttonContainer:hover {
+  opacity: 0.9;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.buttonContainer:hover h4 {
+  color: white;
+  transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.buttonContainer:hover h4 {
+  color: #141b24;
+}
+
+.projectPhoto {
+  height: 750px;
+  width: 750px;
+  background: url('./../images/popbeauty.png');
+  position: absolute;
+  right: 0;
+  mask-image: url('./../images/popmask.png');
+}
+
+.category {
+  font-family: IBM Plex Sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  margin-right: 20px;
+}
+
+.red {
+  color: #ff3c3c;
+}
+
+.green {
+  color: #66ff88;
+}
+
+.blue {
+  color: #3387ff;
+}
+
+.categoryContainer {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  /* line-height: 62px; */
+}
+
+.projectDate {
+  font-family: IBM Plex Sans Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.enterButton {
+  width: 188px;
+  height: 68px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  margin-top: 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  opacity: 1;
+  color: #ffffff;
+  transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.enterButton div {
+  padding-top: 16px;
+  padding-left: 26px;
+}
+
+.enterButton:hover {
+  background-color: #ffffff;
+  color: #101214;
+  stroke: #101214;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.arrowButton {
+  height: 20px;
+  width: 20px;
+  padding-top: 15px;
+}
+
+.downArrow {
+  padding-top: 10px;
+}
+
+.projectPreviewContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mainProjects {
+  display: flex;
+  justify-content: center;
+}
+
+.projectNavAndPreview {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectAnimation {
+  display: hidden;
+}
+
+.projectInfoContainer {
+  margin-right: 50px;
+}
+
+.projectImage {
+  height: 500px;
+
+}
+
+/* for navigation */
+.displayShow {
+  display: inline-block;
+}
+
+.navLink:hover:after,
+.navLinkSelected--active:after,
+.navUnderline {
+  width: 70%;
+  height: 3px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  bottom: -3px;
+  left: 0;
+  border-radius: 30px;
+}
+
+.navLink:hover::after {
+  width: 70%;
+  height: 3px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  bottom: -3px;
+  left: 0;
+  border-radius: 30px;
+}
+
+.navLink {
+  font-family: IBM Plex Sans Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+  margin: 0 40px;
+  top: -5px;
+  position: relative;
+}
+
+.navItems {
+  margin-top: 50px;
+  margin-bottom: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+}
+
+.navIcon {
+  height: 70px;
+  width: 50px;
+  background-image: url('./../images/navIcon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.displayHidden {
+  display: none;
+}
