@@ -20,10 +20,10 @@ body {
   justify-content: flex-start;
   vertical-align: top;
   flex-direction: column;
-  height: calc(100vh-100px);
-  /* width: 100vw; */
   padding-left: 100px;
   padding-right: 100px;
+
+
 }
 
 // Hero Image
@@ -218,20 +218,29 @@ body {
 .projectContainer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-left: 100px;
   padding-right: 100px;
   margin-top: 150px;
+  flex-flow: wrap;
 
 }
 
 .projectTextContainer {
   display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   flex-direction: column;
-  width: fit-content;
-  padding: 35px 40px 35px 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  /* width: fit-content; */
+  max-width: 280px;
+  min-width: 500px;
+  padding: 25px 32px 25px 40px;
   border: 7px solid;
+  margin-top: 20px;
+  margin-right: 80px;
 }
 
 .projectDate {
@@ -261,6 +270,7 @@ body {
   height: 500px;
   width: 755px;
   background-color: black;
+  margin-right: 80px;
 }
 
 .dividerLine {
@@ -270,9 +280,10 @@ body {
 }
 
 .projectButtonContainer {
-  padding: 35px 0px;
+  margin-top: 24px;
+  padding: 30px 0px;
   height: fit-content;
-  width: 450px;
+  width: 50%;
   text-align: center;
   font-style: normal;
   font-weight: bold;
@@ -280,9 +291,28 @@ body {
   line-height: 28px;
 
   color: #FFFFFF;
+  opacity: 1;
+  transition: .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.projectButtonContainer:hover {
+  width: 588px;
+  opacity: .75;
+  cursor: pointer;
 }
 
 .projectButtonContainer span {
   width: 100%;
 
+}
+
+.projectPageContainer {
+  width: 100vw;
+  // height: calc(100vh+100px);
+  height: 1000px;
+  background-color: white;
+}
+
+.projectsNav {
+  color: black;
 }

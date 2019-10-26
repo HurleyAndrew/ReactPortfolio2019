@@ -3,7 +3,7 @@
       "id": 1,
       "title": "ABC's of Symbiosis",
       "date": "Fall 2019",
-      "link": "abcofsymbiosis.html",
+      "link": "abcofsymbiosis",
       "image": "abcofsymbiosis.jpg",
       "color": "F2A23B"
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "title": "Wegmans Weather Application",
       "date": "Summmer 2019",
-      "link": "wegmansweather.html",
+      "link": "wegmansweather",
       "image": "wegmansweather.jpg",
       "color": "3387FF"
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "title": "Demo Reel",
       "date": "Spring 2019",
-      "link": "demoreel.html",
+      "link": "demoreel",
       "image": "demoreel.jpg",
       "color": "000000"
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "title": "Chore Management",
       "date": "Spring 2019",
-      "link": "choremanagement.html",
+      "link": "choremanagement",
       "image": "choremanagement.jpg",
       "color": "3F5165"
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "title": "3D Design",
       "date": "Ongoing",
-      "link": "3ddesign.html",
+      "link": "3ddesign",
       "image": "3ddesign.jpg",
       "color": "FFAF39"
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "title": "Coin Care",
       "date": "Fall 2018",
-      "link": "coincare.html",
+      "link": "coincare ",
       "image": "coincare.jpg",
       "color": "219A59"
     }

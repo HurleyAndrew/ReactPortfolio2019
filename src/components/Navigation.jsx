@@ -19,17 +19,17 @@ class Navigation extends React.Component {
     return (
       <div>
         <div className="navItems">
-          <Link className="navLink" to={'/Projects/'}>
+          <Link className="navLink" to={'/'}>
             Projects
             <div className="navUnderline "></div>
           </Link>
 
-          <Link className="navLink" to={'/Other/'}>
+          <Link className="navLink" to={'/other/'}>
             Other
             <div className="navUnderline "></div>
           </Link>
 
-          <Link className="navLink" to={'/About/'}>
+          <Link className="navLink" to={'/about/'}>
             About <div className="navUnderline "></div>
           </Link>
         </div>

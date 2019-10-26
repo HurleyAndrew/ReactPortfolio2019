@@ -1,5 +1,6 @@
 import React from 'react'
 import projectsList from '../projectsList.json'
+import Link from 'gatsby-link'
 
 class ProjectPreview extends React.Component {
   constructor(props) {
@@ -41,15 +42,20 @@ class ProjectPreview extends React.Component {
                 {projectsList.Projects[this.props.count].title}
               </div>
             </div>
-            <div
-              className="projectButtonContainer"
-              style={{
-                backgroundColor:
-                  ' #' + projectsList.Projects[this.props.count].color,
-              }}
+            <Link
+              className="navLink"
+              to={'/' + projectsList.Projects[this.props.count].link + '/'}
             >
-              <span>Check It Out</span>
-            </div>
+              <div
+                className="projectButtonContainer"
+                style={{
+                  backgroundColor:
+                    ' #' + projectsList.Projects[this.props.count].color,
+                }}
+              >
+                <span>Check It Out</span>
+              </div>
+            </Link>
           </div>
         </div>
         <div
