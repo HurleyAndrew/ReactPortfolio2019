@@ -1,35 +1,51 @@
 {
   "Projects": [{
       "id": 1,
-      "title": "Demo Reel",
-      "tags": "none",
-      "date": "Spring 2019",
-      "link": "wegmanshero.png",
-      "image": "demoreel.png"
+      "title": "ABC's of Symbiosis",
+      "date": "Fall 2019",
+      "link": "abcofsymbiosis.html",
+      "image": "abcofsymbiosis.jpg",
+      "color": "F2A23B"
     },
     {
       "id": 2,
-      "title": "Wegmans Forecast",
-      "tags": "Internship Product Design UX",
-      "date": "Summer 2019",
-      "link": "wegmanshero",
-      "image": "wegmansHero.png"
+      "title": "Wegmans Weather Application",
+      "date": "Summmer 2019",
+      "link": "wegmansweather.html",
+      "image": "wegmansweather.jpg",
+      "color": "3387FF"
     },
     {
       "id": 3,
-      "title": "Chore Management",
-      "tags": "UX 3D",
+      "title": "Demo Reel",
       "date": "Spring 2019",
-      "link": "choremanagement",
-      "image": "choremanagement.png"
+      "link": "demoreel.html",
+      "image": "demoreel.jpg",
+      "color": "000000"
     },
     {
       "id": 4,
+      "title": "Chore Management",
+      "date": "Spring 2019",
+      "link": "choremanagement.html",
+      "image": "choremanagement.jpg",
+      "color": "3F5165"
+    },
+    {
+      "id": 5,
       "title": "3D Design",
-      "tags": "3D Experimental",
-      "date": "2018-2019",
-      "link": "3ddesign",
-      "image": "3ddesign.png"
+      "date": "Ongoing",
+      "link": "3ddesign.html",
+      "image": "3ddesign.jpg",
+      "color": "FFAF39"
+    },
+    {
+      "id": 6,
+      "title": "Coin Care",
+      "date": "Fall 2018",
+      "link": "coincare.html",
+      "image": "coincare.jpg",
+      "color": "219A59"
     }
   ]
 }

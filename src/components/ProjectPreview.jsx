@@ -1,6 +1,5 @@
 import React from 'react'
 import projectsList from '../projectsList.json'
-import ProjectPreviewImage from './Members/ProjectPreviewImage.jsx'
 
 class ProjectPreview extends React.Component {
   constructor(props) {
@@ -9,31 +8,56 @@ class ProjectPreview extends React.Component {
   }
 
   render() {
+    let imageURL = './images/' + projectsList.Projects[this.props.count].image
+    console.log(imageURL)
     return (
       <div>
         <div className="projectContainer">
-          <div className="projectInfoContainer">
-            <div className="projectInfo">
-              <div className="categoryContainer">
-                <div className="category red">Product Design </div>
-                <div className="category green">Prototyping</div>
-                <div className="category blue">Motion Graphics</div>
-              </div>
-              <div className="title">
-                {projectsList.Projects[this.props.count].title}
-              </div>
-              <div className="projectDate">
+          <div className="projectImage">
+            <img className="projectImage" src={imageURL} alt={imageURL} />
+          </div>
+          <div>
+            <div
+              className="projectTextContainer"
+              style={{
+                borderColor:
+                  ' #' + projectsList.Projects[this.props.count].color,
+              }}
+            >
+              <div
+                className="projectDate"
+                style={{
+                  color: '#' + projectsList.Projects[this.props.count].color,
+                }}
+              >
                 {projectsList.Projects[this.props.count].date}
               </div>
+              <div
+                className="projectTitle"
+                style={{
+                  color: '#' + projectsList.Projects[this.props.count].color,
+                }}
+              >
+                {projectsList.Projects[this.props.count].title}
+              </div>
             </div>
-            <div className="enterButton">
-              <div>enter</div>
+            <div
+              className="projectButtonContainer"
+              style={{
+                backgroundColor:
+                  ' #' + projectsList.Projects[this.props.count].color,
+              }}
+            >
+              <span>Check It Out</span>
             </div>
           </div>
-          <ProjectPreviewImage
-            image={projectsList.Projects[this.props.count].image}
-          />
         </div>
+        <div
+          className="dividerLine"
+          style={{
+            borderColor: ' #' + projectsList.Projects[this.props.count].color,
+          }}
+        ></div>
       </div>
     )
   }
