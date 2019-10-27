@@ -10,7 +10,7 @@ class ProjectPreview extends React.Component {
 
   render() {
     let imageURL = './images/' + projectsList.Projects[this.props.count].image
-    console.log(imageURL)
+
     return (
       <div>
         <div className="projectContainer">
@@ -58,12 +58,14 @@ class ProjectPreview extends React.Component {
             </Link>
           </div>
         </div>
-        <div
-          className="dividerLine"
-          style={{
-            borderColor: ' #' + projectsList.Projects[this.props.count].color,
-          }}
-        ></div>
+        <div className="pageDividerLineContainer">
+          <div
+            className="dividerLine"
+            style={{
+              borderColor: ' #' + projectsList.Projects[this.props.count].color,
+            }}
+          ></div>
+        </div>
       </div>
     )
   }

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 class ContinueButton extends React.Component {
   render() {
@@ -15,15 +15,15 @@ class ContinueButton extends React.Component {
     //   styles.backgroundColor = "black";
     // }
     function handleClick() {
-      console.log("clicked");
+      console.log('clicked')
     }
 
     function prevPage() {
-      console.log("previous page");
+      console.log('previous page')
     }
 
     function nextPage() {
-      console.log("next page");
+      console.log('next page')
     }
 
     return (
@@ -33,7 +33,7 @@ class ContinueButton extends React.Component {
 
         {console.log(this.props.text)}
       </div>
-    );
+    )
   }
 }
-export default ContinueButton;
+export default ContinueButton

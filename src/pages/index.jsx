@@ -42,35 +42,44 @@ export default class IndexPage extends Component {
         <Navigation page={'home'} /> */}
         <div className="App">
           <div className="wrapper">
-            <Navigation className="navComponent" />
-            <div className="heroImage">
-              {/* <iframe
+            <div className="homeTop">
+              <div className="heroImage">
+                {/* <iframe
                 src={video}
                 className="heroVideo"
                 width="540"
                 height="310"
               ></iframe> */}
-            </div>
-            <div className="heroAbout">
-              <div className="heyitsmeContainer">
-                <div className="heyitsme">Hey it's me,</div>
-                <div className="meTitle">Andrew Hurley</div>
               </div>
-              <div className="productDesignContainer">
-                <div className="productDesignContainerTitle">
-                  Product Designer
+              <div className="heroAbout">
+                <div className="heyitsmeContainer">
+                  <div className="heyitsme">Hey it's me,</div>
+                  <div className="meTitle">Andrew Hurley</div>
                 </div>
-                <div className="productDesignContainerOtherJob">
-                  and recreational<br></br>
-                  <span>{randomWord}</span>
+                <div className="productDesignContainer">
+                  <div className="productDesignContainerTitle">
+                    Product Designer
+                  </div>
+                  <div className="productDesignContainerOtherJob">
+                    and recreational<br></br>
+                    <span>{randomWord}</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="projectList">
-            <ProjectNavigation />
+            <div className="projectDividerLine">
+              <p>Projects</p>
+              <div></div>
+            </div>
+            <ProjectNavigation id={0} />
           </div>
+          <Navigation className="navComponent" color="" />
         </div>
+
+        <div className="downArrow"></div>
       </div>
     )
   }

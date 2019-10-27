@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 class Navigation extends React.Component {
   constructor(props) {
     super()
+
     this.state = {
       showMenu: false,
     }
@@ -16,8 +17,13 @@ class Navigation extends React.Component {
   }
 
   render() {
+    console.log(this.props.color)
     return (
-      <div>
+      <div
+        style={{
+          backgroundColor: this.props.color,
+        }}
+      >
         <div className="navItems">
           <Link className="navLink" to={'/'}>
             Projects

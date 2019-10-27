@@ -1,0 +1,47 @@
+{
+  "ProjectAttributes": [{
+      "id": 0,
+      "title": "The ABC's of Symbiosis"
+    }, {
+      "id": 1,
+      "title": "Prompt",
+      "text": "This is a card game intended for students grade 4 and beyond. It involves matching symbiotic relationships found in nature."
+    },
+    {
+      "id": 2,
+      "title": "Overview",
+      "text": "This is a card game intended for students grade 4 and beyond. It involves matching symbiotic relationships found in nature.",
+      "bullet1": "Create an ABC product for children",
+      "bullet2": "Given 3 different letters to make assets for",
+      "bullet3": "Each card will pair with another card"
+    },
+    {
+      "id": 3,
+      "title": "Sea Cucumber",
+      "text": "This is a card game intended for students grade 4 and beyond. It involves matching symbiotic relationships found in nature.",
+      "image": "seacucumber.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Sea Cucumber",
+      "text": "This is a card game intended for students grade 4 and beyond. It involves matching symbiotic relationships found in nature.",
+      "image": "seacucumber.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Sea Cucumber",
+      "text": "This is a card game intended for students grade 4 and beyond. It involves matching symbiotic relationships found in nature.",
+      "image": "seacucumber.jpg"
+    },
+    {
+      "id": 6,
+      "image": "seacucumber.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Wireframes",
+      "text": "This is a card game intended for students grade 4 and beyond. It involves matching symbiotic relationships found in nature. This is a card game intended for students grade 4 and beyond",
+      "image": "seacucumber.jpg"
+    }
+  ]
+}
