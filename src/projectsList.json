@@ -11,7 +11,7 @@
       "id": 2,
       "title": "Wegmans Weather Application",
       "date": "Summmer 2019",
-      "link": "wegmansweather",
+      "link": "wegmansweatherapplication",
       "image": "wegmansweather.jpg",
       "color": "3387FF"
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "title": "3D Design",
       "date": "Ongoing",
-      "link": "3ddesign",
+      "link": "d3design",
       "image": "3ddesign.jpg",
       "color": "FFAF39"
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "title": "Coin Care",
       "date": "Fall 2018",
-      "link": "coincare ",
+      "link": "coincare",
       "image": "coincare.jpg",
       "color": "219A59"
     }

@@ -43,7 +43,7 @@ class ProjectPreview extends React.Component {
               </div>
             </div>
             <Link
-              className="navLink"
+              className="navProjectLink"
               to={'/' + projectsList.Projects[this.props.count].link + '/'}
             >
               <div

@@ -3,7 +3,10 @@ import '../layouts/index.js'
 import '../layouts/metaData.js'
 import Navigation from './../components/Navigation'
 import ProjectNavigation from './../components/ProjectNavigation'
-import video from './../images/heroVideo.mp4'
+import video from './../images/webMtest.webm'
+import image from './../images/heroFallback.png'
+import HeroComponent from './HeroComponent'
+
 export default class IndexPage extends Component {
   constructor(props) {
     super(props)
@@ -22,7 +25,6 @@ export default class IndexPage extends Component {
       'Photographer',
     ]
     let { randomWord } = this.state
-    let randomNumber
 
     setTimeout(() => {
       this.setState({
@@ -43,13 +45,22 @@ export default class IndexPage extends Component {
         <div className="App">
           <div className="wrapper">
             <div className="homeTop">
-              <div className="heroImage">
-                {/* <iframe
-                src={video}
-                className="heroVideo"
-                width="540"
-                height="310"
-              ></iframe> */}
+              <div className="heroImageContainer">
+                {/* <HeroComponent /> */}
+
+                <div className="heroImage1"></div>
+                <div className="heroImage2">
+                  <video
+                    className="heroVideo"
+                    autoplay="autoplay"
+                    loop
+                    poster={image}
+                  >
+                    <source src={video} type="video/webm" />
+                  </video>
+                </div>
+                <div className="heroImage3"></div>
+                <div className="heroImage4"></div>
               </div>
               <div className="heroAbout">
                 <div className="heyitsmeContainer">

@@ -5,10 +5,6 @@ import '../layouts/metaData.js'
 import ProjectTemplate from '../components/ProjectTemplate'
 
 export default class Abcofsymbiosis extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
       <div>

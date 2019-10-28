@@ -17,7 +17,6 @@ class Navigation extends React.Component {
   }
 
   render() {
-    console.log(this.props.color)
     return (
       <div
         style={{
@@ -29,12 +28,32 @@ class Navigation extends React.Component {
             Projects
             <div className="navUnderline "></div>
           </Link>
+          <div className=" navHover">
+            <Link className=" navLink" to={'/other/'}>
+              Other
+              <div className="navUnderline "></div>
+            </Link>
+            <div className="navOptions">
+              <Link to={'/woodworking/'}>
+                <div className="miniLink">Wood Working</div>
+                <a
+                  href=" http://newmediaclub.rit.edu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="miniLink">NMC Site Design/Code</div>
+                </a>
+              </Link>
 
-          <Link className="navLink" to={'/other/'}>
-            Other
-            <div className="navUnderline "></div>
-          </Link>
-
+              <a
+                href="https://dansegliode.github.io/threepigs/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="miniLink">Three Little Pigs</div>
+              </a>
+            </div>
+          </div>
           <Link className="navLink" to={'/about/'}>
             About <div className="navUnderline "></div>
           </Link>

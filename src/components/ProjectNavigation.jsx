@@ -20,12 +20,11 @@ class ProjectNavigation extends React.Component {
 
   //for each element in json file create html
   createElements = () => {
-    let { count } = this.state
     let elementArray = []
     let id = 0
     for (let index = 0; index < projectCount; index++) {
       id = id + 1
-      console.log(id)
+
       elementArray.push(
         <div>
           <ProjectPreview

@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import '../layouts/index.js'
 import '../layouts/metaData.js'
-import Navigation from '../components/Navigation'
 
-export default class About extends Component {
+import ProjectTemplate from '../components/ProjectTemplate'
+
+export default class WegmansWeatherApplication extends Component {
   render() {
     return (
       <div>
@@ -14,10 +15,7 @@ export default class About extends Component {
 
         <Navigation page={'home'} /> */}
         <div className="App">
-          <div className="wrapper">
-            <Navigation className="navComponent projectsNav" />
-            <div className="projectPageContainer"></div>
-          </div>
+          <ProjectTemplate jsonLink="wegmansweatherapplication" />
         </div>
       </div>
     )
