@@ -45,14 +45,14 @@ export default class IndexPage extends Component {
         <div className="App">
           <div className="wrapper">
             <div className="homeTop">
-              <div className="heroImageContainer">
+              <div className="heroImageContainer" id="heroImageContainer">
                 {/* <HeroComponent /> */}
 
                 <div className="heroImage1"></div>
                 <div className="heroImage2">
                   <video
                     className="heroVideo"
-                    autoplay="autoplay"
+                    autoplay="autoPlay"
                     loop
                     poster={image}
                   >
