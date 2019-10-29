@@ -11,18 +11,19 @@ class D3design extends Component {
     for (let index = 0; index < 12; index++) {
       elementArray.push(
         <img
-          src={'./../images/' + D3Photos.Photos[index].link}
+          src={require('./../images/' + D3Photos.Photos[index].link)}
           alt={'./../images/' + D3Photos.Photos[index].link}
           className="D3Image"
         ></img>
       )
     }
+
     // elementArray.push(<div className="d3designDivider"></div>)
 
     for (let index = 12; index < 17; index++) {
       elementArray.push(
         <img
-          src={'./../images/' + D3Photos.Photos[index].link}
+          src={require('./../images/' + D3Photos.Photos[index].link)}
           alt={'./../images/' + D3Photos.Photos[index].link}
           className="D3ImageSquare"
         ></img>
