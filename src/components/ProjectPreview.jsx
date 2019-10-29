@@ -15,7 +15,12 @@ class ProjectPreview extends React.Component {
       <div>
         <div className="projectContainer">
           <div className="projectImage">
-            <img className="projectImage" src={imageURL} alt={imageURL} />
+            <img
+              className="projectImage"
+              src={require('./../images/' +
+                projectsList.Projects[this.props.count].image)}
+              alt={imageURL}
+            />
           </div>
           <div>
             <div
