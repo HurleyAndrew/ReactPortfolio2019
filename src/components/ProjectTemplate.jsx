@@ -79,7 +79,7 @@ class ProjectTemplate extends React.Component {
               <div className="triplePhotoObject">
                 <img
                   className="triplePhoto"
-                  src={'./../images/' + data[3].image}
+                  src={require('./../images/' + data[3].image)}
                   alt={'./../images/' + data[3].image}
                 ></img>
                 <h1
@@ -94,7 +94,7 @@ class ProjectTemplate extends React.Component {
               <div className="triplePhotoObject">
                 <img
                   className="triplePhoto"
-                  src={'./../images/' + data[4].image}
+                  src={require('./../images/' + data[4].image)}
                   alt={'./../images/' + data[4].image}
                 ></img>
                 <h1
@@ -109,7 +109,7 @@ class ProjectTemplate extends React.Component {
               <div className="triplePhotoObject">
                 <img
                   className="triplePhoto"
-                  src={'./../images/' + data[5].image}
+                  src={require('./../images/' + data[5].image)}
                   alt={'./../images/' + data[5].image}
                 ></img>
                 <h1
@@ -125,7 +125,7 @@ class ProjectTemplate extends React.Component {
 
             <div className="fullWidthImageContainer">
               <img
-                src={'./../images/' + data[6].image}
+                src={require('./../images/' + data[6].image)}
                 alt={'./../images/' + data[6].image}
                 className="fullWidthImage"
               ></img>
@@ -144,7 +144,7 @@ class ProjectTemplate extends React.Component {
               </div>
               <div>
                 <img
-                  src={'./../images/' + data[7].image}
+                  src={require('./../images/' + data[7].image)}
                   alt={'./../images/' + data[7].image}
                 ></img>
               </div>
@@ -152,7 +152,7 @@ class ProjectTemplate extends React.Component {
 
             <div className="fullWidthImageContainer">
               <img
-                src={'./../images/' + data[8].image}
+                src={require('./../images/' + data[8].image)}
                 alt={'./../images/' + data[8].image}
                 className="fullWidthImage"
               ></img>
@@ -171,7 +171,7 @@ class ProjectTemplate extends React.Component {
               </div>
               <div>
                 <img
-                  src={'./../images/' + data[9].image}
+                  src={require('./../images/' + data[9].image)}
                   alt={'./../images/' + data[9].image}
                 ></img>
               </div>
