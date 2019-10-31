@@ -52,7 +52,7 @@ export default class IndexPage extends Component {
                 <div className="heroImage2">
                   <video
                     className="heroVideo"
-                    autoplay="autoPlay"
+                    autoPlay="autoplay"
                     loop
                     poster={image}
                   >

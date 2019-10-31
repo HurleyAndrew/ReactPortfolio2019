@@ -36,14 +36,14 @@ class Navigation extends React.Component {
             <div className="navOptions">
               <Link to={'/woodworking/'}>
                 <div className="miniLink">Wood Working</div>
-                <a
-                  href=" http://newmediaclub.rit.edu/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="miniLink">NMC Site Design/Code</div>
-                </a>
               </Link>
+              <a
+                href=" http://newmediaclub.rit.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="miniLink">NMC Site Design/Code</div>
+              </a>
 
               <a
                 href="https://dansegliode.github.io/threepigs/"

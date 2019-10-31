@@ -75,6 +75,16 @@ class ProjectTemplate extends React.Component {
                 </h3>
               </div>
             </div>
+
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
+            </div>
+
             <div className="pageTriplePhotoRow">
               <div className="triplePhotoObject">
                 <img
@@ -122,13 +132,13 @@ class ProjectTemplate extends React.Component {
                 <p>{data[5].text}</p>
               </div>
             </div>
-
-            <div className="fullWidthImageContainer">
-              <img
-                src={require('./../images/' + data[6].image)}
-                alt={'./../images/' + data[6].image}
-                className="fullWidthImage"
-              ></img>
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
             </div>
 
             <div className="leftAlignedInfoPhoto">
@@ -138,28 +148,64 @@ class ProjectTemplate extends React.Component {
                     color: '#' + data[0].color,
                   }}
                 >
-                  {data[7].title}
+                  {data[6].title}
                 </h1>
-                <p>{data[7].text}</p>
+                <p>{data[6].text}</p>
               </div>
               <div>
                 <img
-                  src={require('./../images/' + data[7].image)}
-                  alt={'./../images/' + data[7].image}
+                  src={require('./../images/' + data[6].image)}
+                  alt={'./../images/' + data[6].image}
                 ></img>
               </div>
+            </div>
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
             </div>
 
             <div className="fullWidthImageContainer">
               <img
-                src={require('./../images/' + data[8].image)}
-                alt={'./../images/' + data[8].image}
+                src={require('./../images/' + data[7].image)}
+                alt={'./../images/' + data[7].image}
                 className="fullWidthImage"
               ></img>
             </div>
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
+            </div>
 
-            <div className="leftAlignedInfoPhoto">
-              <div>
+            <div className="pageTriplePhotoRow">
+              <div className="triplePhotoObject">
+                <img
+                  className="triplePhoto"
+                  src={require('./../images/' + data[8].image)}
+                  alt={'./../images/' + data[8].image}
+                ></img>
+                <h1
+                  style={{
+                    color: '#' + data[0].color,
+                  }}
+                >
+                  {data[8].title}
+                </h1>
+                <p>{data[8].text}</p>
+              </div>
+              <div className="triplePhotoObject">
+                <img
+                  className="triplePhoto"
+                  src={require('./../images/' + data[9].image)}
+                  alt={'./../images/' + data[9].image}
+                ></img>
                 <h1
                   style={{
                     color: '#' + data[0].color,
@@ -169,13 +215,173 @@ class ProjectTemplate extends React.Component {
                 </h1>
                 <p>{data[9].text}</p>
               </div>
+              <div className="triplePhotoObject">
+                <img
+                  className="triplePhoto"
+                  src={require('./../images/' + data[10].image)}
+                  alt={'./../images/' + data[10].image}
+                ></img>
+                <h1
+                  style={{
+                    color: '#' + data[0].color,
+                  }}
+                >
+                  {data[10].title}
+                </h1>
+                <p>{data[10].text}</p>
+              </div>
+            </div>
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
+            </div>
+
+            <div className="leftAlignedInfoPhoto">
+              <div>
+                <h1
+                  style={{
+                    color: '#' + data[0].color,
+                  }}
+                >
+                  {data[11].title}
+                </h1>
+                <p>{data[11].text}</p>
+              </div>
               <div>
                 <img
-                  src={require('./../images/' + data[9].image)}
-                  alt={'./../images/' + data[9].image}
+                  src={require('./../images/' + data[11].image)}
+                  alt={'./../images/' + data[11].image}
                 ></img>
               </div>
             </div>
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
+            </div>
+
+            <div className="fullWidthImageContainer">
+              <img
+                src={require('./../images/' + data[12].image)}
+                alt={'./../images/' + data[12].image}
+                className="fullWidthImage"
+              ></img>
+            </div>
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
+            </div>
+
+            <div className="pageTriplePhotoRow">
+              <div className="triplePhotoObject">
+                <img
+                  className="triplePhoto"
+                  src={require('./../images/' + data[13].image)}
+                  alt={'./../images/' + data[13].image}
+                ></img>
+                <h1
+                  style={{
+                    color: '#' + data[0].color,
+                  }}
+                >
+                  {data[13].title}
+                </h1>
+                <p>{data[13].text}</p>
+              </div>
+              <div className="triplePhotoObject">
+                <img
+                  className="triplePhoto"
+                  src={require('./../images/' + data[14].image)}
+                  alt={'./../images/' + data[14].image}
+                ></img>
+                <h1
+                  style={{
+                    color: '#' + data[0].color,
+                  }}
+                >
+                  {data[14].title}
+                </h1>
+                <p>{data[14].text}</p>
+              </div>
+              <div className="triplePhotoObject">
+                <img
+                  className="triplePhoto"
+                  src={require('./../images/' + data[15].image)}
+                  alt={'./../images/' + data[15].image}
+                ></img>
+                <h1
+                  style={{
+                    color: '#' + data[0].color,
+                  }}
+                >
+                  {data[15].title}
+                </h1>
+                <p>{data[15].text}</p>
+              </div>
+            </div>
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
+            </div>
+
+            <div className="leftAlignedInfoPhoto">
+              <div>
+                <h1
+                  style={{
+                    color: '#' + data[0].color,
+                  }}
+                >
+                  {data[16].title}
+                </h1>
+                <p>{data[16].text}</p>
+              </div>
+              <div>
+                <img
+                  src={require('./../images/' + data[16].image)}
+                  alt={'./../images/' + data[16].image}
+                ></img>
+              </div>
+            </div>
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
+            </div>
+
+            <div className="fullWidthImageContainer">
+              <img
+                src={require('./../images/' + data[17].image)}
+                alt={'./../images/' + data[17].image}
+                className="fullWidthImage"
+              ></img>
+            </div>
+            <div className="pageDividerLineContainer">
+              <div
+                className="dividerLine"
+                style={{
+                  borderColor: '#' + data[0].color,
+                }}
+              ></div>
+            </div>
+
             <ProjectsAdvertisement />
           </div>
         </div>
