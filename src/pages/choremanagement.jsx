@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import '../layouts/index.js'
 import '../layouts/metaData.js'
 
-import ProjectTemplate from '../components/ProjectTemplate'
-
 export default class ChoreManagement extends Component {
   render() {
     return (
@@ -14,9 +12,7 @@ export default class ChoreManagement extends Component {
         </MetaTags>
 
         <Navigation page={'home'} /> */}
-        <div className="App">
-          <ProjectTemplate jsonLink="choremanagement" />
-        </div>
+        <div className="App"></div>
       </div>
     )
   }

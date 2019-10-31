@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import '../layouts/index.js'
 import '../layouts/metaData.js'
 
-import ProjectTemplate from '../components/ProjectTemplate'
-
 export default class CoinCare extends Component {
   render() {
     return (
@@ -14,9 +12,7 @@ export default class CoinCare extends Component {
         </MetaTags>
 
         <Navigation page={'home'} /> */}
-        <div className="App">
-          <ProjectTemplate jsonLink="coincare" />
-        </div>
+        <div className="App"></div>
       </div>
     )
   }
