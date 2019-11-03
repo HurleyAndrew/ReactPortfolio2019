@@ -11,6 +11,36 @@ class ProjectPreview extends React.Component {
   render() {
     let imageURL = './images/' + projectsList.Projects[this.props.count].image
 
+    function createElement(prop, link, color) {
+      console.log(prop, link, color)
+      if (prop === 'internal') {
+        return (
+          <Link className="navProjectLink" to={link}>
+            <div
+              className="projectButtonContainer"
+              style={{
+                backgroundColor: color,
+              }}
+            >
+              <span>Check It Out</span>
+            </div>
+          </Link>
+        )
+      } else {
+        return (
+          <a className="navProjectLink" href={link}>
+            <div
+              className="projectButtonContainer"
+              style={{
+                backgroundColor: color,
+              }}
+            >
+              <span>Check It Out</span>
+            </div>
+          </a>
+        )
+      }
+    }
     return (
       <div>
         <div className="projectContainer">
@@ -47,27 +77,18 @@ class ProjectPreview extends React.Component {
                 {projectsList.Projects[this.props.count].title}
               </div>
             </div>
-            <Link
-              className="navProjectLink"
-              to={'/' + projectsList.Projects[this.props.count].link + '/'}
-            >
-              <div
-                className="projectButtonContainer"
-                style={{
-                  backgroundColor:
-                    ' #' + projectsList.Projects[this.props.count].color,
-                }}
-              >
-                <span>Check It Out</span>
-              </div>
-            </Link>
+            {createElement(
+              projectsList.Projects[this.props.count].linkType,
+              projectsList.Projects[this.props.count].link,
+              ' #' + projectsList.Projects[this.props.count].color
+            )}
           </div>
         </div>
         <div className="pageDividerLineContainer">
           <div
             className="dividerLine"
             style={{
-              borderColor: ' #' + projectsList.Projects[this.props.count].color,
+              borderColor: ' #' + '3556ff',
             }}
           ></div>
         </div>

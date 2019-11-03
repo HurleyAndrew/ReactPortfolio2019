@@ -3,33 +3,37 @@
       "id": 1,
       "title": "ABC's of Symbiosis",
       "date": "Fall 2019",
-      "link": "abcofsymbiosis",
+      "link": "/abcofsymbiosis/",
       "image": "abcofsymbiosis.jpg",
-      "color": "F2A23B"
+      "color": "F2A23B",
+      "linkType": "internal"
     },
     {
       "id": 2,
       "title": "Wegmans Weather Application",
       "date": "Summmer 2019",
-      "link": "wegmansweatherapplication",
+      "link": "/wegmansweatherapplication/",
       "image": "wegmansweather.jpg",
-      "color": "3387FF"
+      "color": "3387FF",
+      "linkType": "internal"
     },
     {
       "id": 3,
       "title": "Demo Reel",
       "date": "Spring 2019",
-      "link": "demoreel",
+      "link": "/demoreel/",
       "image": "demoreel.jpg",
-      "color": "000000"
+      "color": "000000",
+      "linkType": "internal"
     },
     {
       "id": 4,
       "title": "Chore Management",
       "date": "Spring 2019",
-      "link": "choremanagement",
+      "link": "https://www.behance.net/gallery/74068673/Chore-Management",
       "image": "choremanagement.jpg",
-      "color": "3F5165"
+      "color": "3F5165",
+      "linkType": "external"
     },
     {
       "id": 5,
@@ -37,15 +41,17 @@
       "date": "Ongoing",
       "link": "d3design",
       "image": "3ddesign.jpg",
-      "color": "FFAF39"
+      "color": "FFAF39",
+      "linkType": "internal"
     },
     {
       "id": 6,
       "title": "Coin Care",
       "date": "Fall 2018",
-      "link": "coincare",
+      "link": "https://www.behance.net/gallery/74068671/Coin-Care",
       "image": "coincare.jpg",
-      "color": "219A59"
+      "color": "219A59",
+      "linkType": "external"
     }
   ]
 }

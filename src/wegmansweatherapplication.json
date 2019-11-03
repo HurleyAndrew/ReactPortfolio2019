@@ -1,19 +1,20 @@
 {
   "ProjectAttributes": [{
       "id": 0,
-      "title": "The ABC's of Symbiosis",
-      "color": "3556FF",
-      "location": "abcimages"
+      "title": "Wegmans Weather App",
+      "color": "3387FF",
+      "location": "wegmansimages",
+      "link": "https://www.behance.net/gallery/81917587/Wegmans-Forecast"
     }, {
       "id": 1,
       "title": "Prompt",
-      "text": "We were tasked with designing a product that is remeniscient of an ABC’s book for children. We had options of doing things like books, e-books, short stories etc. Our group decided to go with a matching card game. We called this came the ABC’s of Symbiosis."
+      "text": "I interned at Wegmans Food Market in Rochester New York over the Summer of 2019. Me and one other RIT design student were tasked with replacing their current email based notification platform with a better digital solution."
     },
     {
       "id": 2,
       "title": "Overview",
-      "text": "The ABC’s of Symbiosis is played by trying to match color schemes and “QR” codes of each card to find their pairs. Each student in the class is given a letter and is tasked with finding their pair. Developing the idea was a group effort while each card is an individual effort where each member gets 3 letters that they need to make illustrations for.",
-      "bullet1": "Create an ABC product for children",
+      "text": "I was given free reign on what I felt was the best medium to deliver the content and so I went with a mobile application. We reviewd our work with those who would inevitebly be using it and got feedback on things to add and change about the current email based system.",
+      "bullet1": "Create an wegmans product for children",
       "bullet2": "Given 3 different letters to make assets for",
       "bullet3": "Each card will pair with another card"
     },
@@ -21,86 +22,86 @@
       "id": 3,
       "title": "Sea Cucumber",
       "text": "These are the letters that were given to me at random. S is for sea cucumbers which live on the ocean floor. Their pair is the Imperial Shrimp and “offer” rides to them around the ocean floor.",
-      "image": "abc3.jpg"
+      "image": "wegmans3.jpg"
     },
     {
       "id": 4,
       "title": "Sea Urchin",
       "text": "The sea urchin pairs with the carrier crab. They have a cool relationship where the carrier crab will place the urchin on its back as a sort of spike shield.",
-      "image": "abc4.jpg"
+      "image": "wegmans4.jpg"
     },
     {
       "id": 5,
       "title": "Human",
       "text": "The human card pairs with bacteria. Focusing on the healthy benefits of bacteria on the human body, things such as kombucha and gut bacteria are healthy bacterias.",
-      "image": "abc5.jpg"
+      "image": "wegmans5.jpg"
     },
     {
       "id": 6,
       "title": "Card Template",
       "text": "Since these would be going to print I had to come up with an inDesign template to send off to the printer with the right specifications. But it also had to be easy to use for other members in the group.",
-      "image": "abc6.jpg"
+      "image": "wegmans6.jpg"
     },
     {
       "id": 7,
-      "image": "abc7.jpg"
+      "image": "wegmans7.jpg"
     },
     {
       "id": 8,
       "title": "Iterations",
       "text": "These are the initial iterations on each letter. I decided early on to, instead of putting each letter in plain text onto the card I would use each character as the letter.",
-      "image": "abc8.jpg"
+      "image": "wegmans8.jpg"
     },
     {
       "id": 9,
       "title": "_ ",
       "text": "With the human I started off as 2D but went to 3D after completing the sea urchin because I liked how cohesive they were looking as if the entire game could be 3D characters. ",
-      "image": "abc9.jpg"
+      "image": "wegmans9.jpg"
     },
     {
       "id": 10,
       "title": "_ ",
       "text": "The sea urchin had the most change happen to him. He was my experiement where I decided on using letters as bodys for all my letter and tried to anthropomorphize them a bit.",
-      "image": "abc10.jpg"
+      "image": "wegmans10.jpg"
     },
     {
       "id": 11,
       "title": "AR Frame",
       "text": "We were also tasked with coming up with several interaction based examples and an AR example frame to emonstrate other possibilities for the project.",
-      "image": "abc11.jpg"
+      "image": "wegmans11.jpg"
     },
     {
       "id": 12,
-      "image": "abc12.jpg"
+      "image": "wegmans12.jpg"
     },
     {
       "id": 13,
       "title": "Sea Cucumber",
       "text": "This is the final version of the card. For this one I went with a scarier tone to mix things up and give a more fantasy card game vibe to it instead of an more linear art style like Go Fish or UNO.",
-      "image": "abc13.jpg"
+      "image": "wegmans13.jpg"
     },
     {
       "id": 14,
       "title": "Human",
       "text": "For each of these cards I also wanted to put them somewhere signature and similar to their pair. So the human is placed in the gym to show that they are healthy just like how the bacteria is helpful to the human.",
-      "image": "abc14.jpg"
+      "image": "wegmans14.jpg"
     },
     {
       "id": 15,
       "title": "Sea Urchin",
       "text": "The enviroment for the sea urchin is the sea anenome an area the carrier crab can be found. It also is a great abstraction from where the sea urchin is found.",
-      "image": "abc15.jpg"
+      "image": "wegmans15.jpg"
     },
     {
       "id": 16,
-      "image": "abc16.jpg",
+      "image": "wegmans16.jpg",
       "title": "I Also Made a Box",
       "text": "I do woodworking as a hobby and whenever I go home on breaks I spend all my time working in my lil’ shop. While I was home I made a box for the deck of cards out of leopard wood and bamboo to really complete the project."
 
     },
     {
       "id": 17,
-      "image": "abc17.jpg"
+      "image": "wegmans17.jpg"
     }
   ]
 }

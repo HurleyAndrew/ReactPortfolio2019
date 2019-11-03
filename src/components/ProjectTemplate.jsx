@@ -41,6 +41,22 @@ class ProjectTemplate extends React.Component {
                   {data[1].title}
                 </h1>
                 <p>{data[1].text}</p>
+                <a href={data[0].link} target="_blank">
+                  <div
+                    className="processButton"
+                    style={{
+                      borderColor: '#' + data[0].color,
+                    }}
+                  >
+                    <span
+                      style={{
+                        color: '#' + data[0].color,
+                      }}
+                    >
+                      Process
+                    </span>
+                  </div>
+                </a>
               </div>
               <div className="overviewContainer">
                 <h1
