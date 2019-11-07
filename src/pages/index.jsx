@@ -50,7 +50,9 @@ export default class IndexPage extends Component {
                 <div className="heroImage2 bounce-2">
                   <video
                     className="heroVideo"
-                    autoPlay="autoplay"
+                    playsInline
+                    autoPlay
+                    muted
                     loop
                     poster={image}
                   >
