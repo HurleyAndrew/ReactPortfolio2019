@@ -12,7 +12,6 @@ class ProjectPreview extends React.Component {
     let imageURL = './images/' + projectsList.Projects[this.props.count].image
 
     function createElement(prop, link, color) {
-      console.log(prop, link, color)
       if (prop === 'internal') {
         return (
           <Link className="navProjectLink" to={link}>
@@ -42,7 +41,7 @@ class ProjectPreview extends React.Component {
       }
     }
     return (
-      <div>
+      <div className="projectAlign">
         <div className="projectContainer">
           <div className="projectImage">
             <img

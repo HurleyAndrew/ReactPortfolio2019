@@ -55,7 +55,7 @@ class Navigation extends React.Component {
             </div>
           </div>
           <Link className="navLink" to={'/about/'}>
-            About <div className="navUnderline "></div>
+            Resume <div className="navUnderline "></div>
           </Link>
         </div>
       </div>

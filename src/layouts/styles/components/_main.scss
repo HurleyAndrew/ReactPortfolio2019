@@ -37,8 +37,104 @@ body {
 }
 
 // Hero Image
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.bounce-3 {
+  animation-name: bounce-3;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.bounce-4 {
+  animation-name: bounce-4;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0px);
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateY(65px);
+    transform: translateX(45px);
+  }
+
+  100% {
+    transform: translateY(0px);
+    transform: translateX(0px);
+  }
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(-10px);
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateY(0px);
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+    transform: translateX(-10px);
+  }
+}
+
+@keyframes bounce-3 {
+  0% {
+    transform: translateY(-10px);
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateY(0px);
+    transform: translateX(-0px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+    transform: translateX(10px);
+  }
+}
+
+@keyframes bounce-4 {
+  0% {
+    transform: translateY(0px);
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateY(0px);
+    transform: translateX(-0px);
+  }
+
+  100% {
+    transform: translateY(0px);
+    transform: translateX(10px);
+  }
+}
 
 .heroImageContainer {
+
   top: 290px;
   // position: absolute;
   height: max-content;
@@ -314,6 +410,13 @@ body {
 }
 
 // project
+.projectAlign {
+  display: flex;
+  flex-flow: column;
+  /* justify-content: center; */
+  // align-items: center;
+}
+
 .projectContainer {
   display: flex;
   align-items: center;
@@ -323,6 +426,7 @@ body {
   width: auto;
   margin-top: 150px;
   flex-flow: wrap;
+  max-width: 1600px;
 }
 
 .projectTextContainer {

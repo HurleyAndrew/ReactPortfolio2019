@@ -30,8 +30,6 @@ export default class IndexPage extends Component {
       this.setState({
         randomWord: randomWork[Math.floor(Math.random() * randomWork.length)],
       })
-      // console.log('timerhit' + randomNumber)
-      // console.log(randomWord)
     }, 2500)
 
     return (
@@ -48,8 +46,8 @@ export default class IndexPage extends Component {
               <div className="heroImageContainer" id="heroImageContainer">
                 {/* <HeroComponent /> */}
 
-                <div className="heroImage1"></div>
-                <div className="heroImage2">
+                <div className="heroImage1 bounce-1"></div>
+                <div className="heroImage2 bounce-2">
                   <video
                     className="heroVideo"
                     autoPlay="autoplay"
@@ -59,8 +57,8 @@ export default class IndexPage extends Component {
                     <source src={video} type="video/webm" />
                   </video>
                 </div>
-                <div className="heroImage3"></div>
-                <div className="heroImage4"></div>
+                <div className="heroImage3 bounce-3"></div>
+                <div className="heroImage4 bounce-4"></div>
               </div>
               <div className="heroAbout">
                 <div className="heyitsmeContainer">
