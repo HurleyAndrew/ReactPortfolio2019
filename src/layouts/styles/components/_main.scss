@@ -801,3 +801,16 @@ body {
     color: white;
   }
 }
+
+
+// Wegmans Page
+.wegmansWrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 48px;
+  grid-row-gap: 0px;
+  }
+  
+  .wegmansLeftChannel { grid-area: 1 / 2 / 2 / 4; }
+  .wegmansRightChannel { grid-area: 1 / 5 / 2 / 8; }

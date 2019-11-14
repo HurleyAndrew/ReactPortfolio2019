@@ -15,6 +15,10 @@ export default class WegmansWeatherApplication extends Component {
 
         <Navigation page={'home'} /> */}
         <div className="App">
+          <div className="wegmansWrapper">
+            <div className="wegmansLeftChannel"></div>
+            <div className="wegmansRightChannel"></div>
+          </div>
           <ProjectTemplate jsonLink="wegmansweatherapplication" />
         </div>
       </div>
