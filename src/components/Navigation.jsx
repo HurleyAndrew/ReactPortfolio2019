@@ -24,39 +24,42 @@ class Navigation extends React.Component {
         }}
       >
         <div className="navItems">
-          <Link className="navLink" to={'/'}>
-            Projects
-            <div className="navUnderline "></div>
-          </Link>
-          <div className=" navHover">
-            <Link className=" navLink" to={'/other/'}>
-              Other
+          <div className="navLogo">AH</div>
+          <div className="navLinkItems">
+            <Link className="navLink" to={'/'}>
+              Projects
               <div className="navUnderline "></div>
             </Link>
-            <div className="navOptions">
-              <Link to={'/woodworking/'}>
-                <div className="miniLink">Wood Working</div>
+            <div className=" navHover">
+              <Link className=" navLink" to={'/other/'}>
+                Other
+                <div className="navUnderline "></div>
               </Link>
-              <a
-                href=" http://newmediaclub.rit.edu/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="miniLink">NMC Site Design/Code</div>
-              </a>
+              <div className="navOptions">
+                <Link to={'/woodworking/'}>
+                  <div className="miniLink">Wood Working</div>
+                </Link>
+                <a
+                  href=" http://newmediaclub.rit.edu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="miniLink">NMC Site Design/Code</div>
+                </a>
 
-              <a
-                href="https://dansegliode.github.io/threepigs/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="miniLink">Three Little Pigs</div>
-              </a>
+                <a
+                  href="https://dansegliode.github.io/threepigs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="miniLink">Three Little Pigs</div>
+                </a>
+              </div>
             </div>
+            <Link className="navLink" to={'/about/'}>
+              Resume <div className="navUnderline "></div>
+            </Link>
           </div>
-          <Link className="navLink" to={'/about/'}>
-            Resume <div className="navUnderline "></div>
-          </Link>
         </div>
       </div>
     )
