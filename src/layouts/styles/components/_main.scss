@@ -866,7 +866,9 @@ body {
 
 .wegmansHero {
   grid-column: 2/5;
-  align-self: center;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
 
   h3 {
     font-family: 'Work Sans', sans-serif;
@@ -889,6 +891,8 @@ body {
 .wegmanHeroImage {
   grid-column: 5/8;
   align-self: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
   width: 100%;
 }
 
