@@ -855,10 +855,12 @@ body {
 
 // Wegmans Page
 .wegmansWrapper {
+  max-width: 2200px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 100vh auto;
+  /* grid-template-rows: 100vh auto; */
   grid-column-gap: 48px;
+  margin: 0 auto;
   grid-row-gap: 48px;
 }
 
@@ -1125,4 +1127,24 @@ p {
   width: 100%;
   height: auto;
   background-color: black;
+}
+
+// screen too big 1800px
+@media screen and (min-width: 1800px) {
+  .heroAbout {
+    margin-left: 320px;
+  }
+
+  .heroImage1 {
+    margin-right: 210px;
+  }
+  .heroImage2 {
+    margin-right: 210px;
+  }
+  .heroImage3 {
+    margin-right: 210px;
+  }
+  .heroImage4 {
+    margin-right: 210px;
+  }
 }

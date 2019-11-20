@@ -27,7 +27,7 @@ const TemplateWrapper = ({ children }) => (
     <meta property="og:image:height" content="400" />
     <meta property="og:site_name" content="https://hurleyandrew.com/" />
     <meta property="og:url" content="https://hurleyandrew.com/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <meta itemprop="name" content="Andrew Hurley Product Designer" />
