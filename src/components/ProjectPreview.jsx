@@ -87,7 +87,7 @@ class ProjectPreview extends React.Component {
           <div
             className="dividerLine"
             style={{
-              borderColor: ' #' + '3556ff',
+              borderColor: '#3556ff',
             }}
           ></div>
         </div>

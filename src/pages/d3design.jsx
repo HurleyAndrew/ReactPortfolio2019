@@ -4,6 +4,7 @@ import '../layouts/metaData.js'
 import D3Photos from '../d3photos.json'
 import Navigation from '../components/Navigation'
 import ProjectsAdvertisement from '../components/ProjectsAdvertisement'
+import { Link } from 'gatsby'
 
 class D3design extends Component {
   createElements = () => {
@@ -20,7 +21,7 @@ class D3design extends Component {
 
     // elementArray.push(<div className="d3designDivider"></div>)
 
-    for (let index = 12; index < 17; index++) {
+    for (let index = 12; index < 16; index++) {
       elementArray.push(
         <img
           src={require('./../images/' + D3Photos.Photos[index].link)}
@@ -50,6 +51,41 @@ class D3design extends Component {
           </div>
           <div className="d3designPhotoContainer">{this.createElements()}</div>
           <ProjectsAdvertisement />
+
+          <div className="projectAdvertisementContainer">
+            <div>
+              <Link to={'/abcofsymbiosis/'}>
+                <div className="advertisementItem">
+                  <img
+                    src={require('../images/advertisement/wegmansAd.jpg')}
+                    alt="project"
+                    className=""
+                  />
+                  <p>ABC's of Symbiosis</p>
+                </div>
+              </Link>
+              <Link to={'/d3design/'}>
+                <div className="advertisementItem">
+                  <img
+                    src={require('../images/advertisement/d3designAd.jpg')}
+                    alt="project"
+                    className=""
+                  />
+                  <p>3D Design</p>
+                </div>
+              </Link>
+              <Link to={'/coincare/'}>
+                <div className="advertisementItem">
+                  <img
+                    src={require('../images/advertisement/coincareAd.jpg')}
+                    alt="project"
+                    className=""
+                  />
+                  <p>Coin Care</p>
+                </div>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     )

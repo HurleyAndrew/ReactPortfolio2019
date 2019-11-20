@@ -26,16 +26,14 @@ class ProjectNavigation extends React.Component {
       id = id + 1
 
       elementArray.push(
-        <div>
-          <ProjectPreview
-            count={index}
-            tags={this.tags}
-            title={this.title}
-            date={this.date}
-            link={this.link}
-            id={id}
-          />
-        </div>
+        <ProjectPreview
+          count={index}
+          tags={this.tags}
+          title={this.title}
+          date={this.date}
+          link={this.link}
+          key={id}
+        />
       )
     }
     return elementArray

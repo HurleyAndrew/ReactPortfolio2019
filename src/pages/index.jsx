@@ -5,7 +5,6 @@ import Navigation from './../components/Navigation'
 import ProjectNavigation from './../components/ProjectNavigation'
 import video from './../images/webMtest.webm'
 import image from './../images/heroFallback.png'
-import HeroComponent from './HeroComponent'
 
 export default class IndexPage extends Component {
   constructor(props) {
@@ -85,7 +84,7 @@ export default class IndexPage extends Component {
               <p>Projects</p>
               <div></div>
             </div>
-            <ProjectNavigation key={'projectnav1'} />
+            <ProjectNavigation key={'projectnav1'} id="anchorLink" />
           </div>
           <Navigation key={'sitenav1'} className="navComponent" color="" />
         </div>

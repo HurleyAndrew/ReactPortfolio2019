@@ -41,7 +41,11 @@ class ProjectTemplate extends React.Component {
                   {data[1].title}
                 </h1>
                 <p>{data[1].text}</p>
-                <a href={data[0].link} target="_blank">
+                <a
+                  href={data[0].link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div
                     className="processButton"
                     style={{

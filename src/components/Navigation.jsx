@@ -36,9 +36,9 @@ class Navigation extends React.Component {
                 <div className="navUnderline "></div>
               </Link>
               <div className="navOptions">
-                <Link to={'/woodworking/'}>
+                {/* <Link to={'/woodworking/'}>
                   <div className="miniLink">Wood Working</div>
-                </Link>
+                </Link> */}
                 <a
                   href=" http://newmediaclub.rit.edu/"
                   target="_blank"
@@ -56,9 +56,16 @@ class Navigation extends React.Component {
                 </a>
               </div>
             </div>
-            <Link className="navLink" to={'/about/'}>
+            {/* <Link className="navLink" to={'/about/'}> */}
+            <a
+              href="https://www.dropbox.com/s/awdm6mfvwjaydiz/CapstoneResume.pdf?dl=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="navLink"
+            >
               Resume <div className="navUnderline "></div>
-            </Link>
+            </a>
+            {/* </Link> */}
           </div>
         </div>
       </div>

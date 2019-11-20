@@ -46,6 +46,7 @@ export default class WegmansWeatherApplication extends Component {
               <a
                 href="https://www.behance.net/gallery/81917587/Wegmans-Forecast"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div
                   className="processButton"

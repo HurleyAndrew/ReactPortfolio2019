@@ -11,11 +11,11 @@ export default class DemoReel extends Component {
       <div>
         <div className="App">
           <div className="wrapper">
-            <Navigation className="navComponent " color={'#26304B'} />
+            <Navigation className="navComponent " color={'#A2528A'} />
             <div
               className="pageTitleBar"
               style={{
-                backgroundColor: '#26304B',
+                backgroundColor: '#A2528A',
               }}
             >
               <div className="pageTitle">Demo Reel</div>

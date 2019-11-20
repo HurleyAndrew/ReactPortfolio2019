@@ -48,6 +48,7 @@ export default class Abcofsymbiosis extends Component {
               <a
                 href="https://www.behance.net/gallery/87616593/Symbiotic-Pairs-Matching-Game"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div
                   className="processButton"
@@ -291,6 +292,22 @@ export default class Abcofsymbiosis extends Component {
                   />
                 </div>
               </div>
+            </div>
+
+            <div className="leftTagContainer wegmansFullWidth">
+              <div className="leftTag leftTagWithBg viewmoreProjects">
+                PROTOTYPE
+              </div>
+            </div>
+
+            <div className="wegmansFullWidth weatherAnimationContainer">
+              <video width="320" height="240" controls className="wegmansDemo">
+                <source
+                  src={require('../images/symbiosisImages/symbiosisDemo.mp4')}
+                  type="video/mp4"
+                ></source>
+                Your browser does not support the video tag.
+              </video>
             </div>
 
             <div className="leftTagContainer wegmansFullWidth">
