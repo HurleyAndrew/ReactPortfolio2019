@@ -87,11 +87,7 @@ export default class IndexPage extends Component {
             </div>
             <ProjectNavigation key={'projectnav1'} />
           </div>
-          <Navigation
-            key={'sitenav1'}
-            className="navComponent"
-            color="3387ff"
-          />
+          <Navigation key={'sitenav1'} className="navComponent" color="" />
         </div>
 
         <div className="downArrow"></div>

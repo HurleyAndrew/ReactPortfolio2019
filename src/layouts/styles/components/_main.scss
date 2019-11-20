@@ -138,7 +138,6 @@ body {
 }
 
 .heroImageContainer {
-
   top: 290px;
   // position: absolute;
   height: max-content;
@@ -237,7 +236,8 @@ body {
   margin-left: $padding-amount;
 }
 
-.heyitsmeContainer {}
+.heyitsmeContainer {
+}
 
 .heyitsme {
   font-family: 'Work Sans', sans-serif;
@@ -399,7 +399,7 @@ body {
   z-index: 15;
   padding-top: 25px;
   padding-bottom: 15px;
-  background: black;
+  // background: black;
 }
 
 .navIcon {
@@ -416,7 +416,7 @@ body {
   display: none;
 }
 
-.navHover:hover>.navOptions {
+.navHover:hover > .navOptions {
   display: inline-block;
 }
 
@@ -760,17 +760,14 @@ body {
   grid-column-gap: 48px;
   grid-row-gap: 48px;
 
-
   div {
     grid-column: 2/8;
     display: flex;
     // flex-direction: row;
   }
-
 }
 
 .advertisementItem {
-
   // height: 300px;
   display: flex;
   flex-direction: column;
@@ -827,7 +824,7 @@ body {
 
 // process button
 .processButton {
-  margin-top: 10px;
+  margin-top: 30px;
   width: 250px;
   height: 70px;
   border: 2px solid #3387ff;
@@ -855,7 +852,6 @@ body {
   }
 }
 
-
 // Wegmans Page
 .wegmansWrapper {
   display: grid;
@@ -863,13 +859,11 @@ body {
   grid-template-rows: 100vh auto;
   grid-column-gap: 48px;
   grid-row-gap: 48px;
-
 }
 
 .wegmansHero {
   grid-column: 2/5;
   align-self: center;
-
 
   h3 {
     font-family: 'Work Sans', sans-serif;
@@ -887,7 +881,6 @@ body {
     font-size: 16px;
     line-height: 32px;
   }
-
 }
 
 .wegmanHeroImage {
@@ -896,12 +889,9 @@ body {
   width: 100%;
 }
 
-
 .leftTagWithBg {
   width: 125px;
   padding: 15px;
-
-
 }
 
 .leftTagContainer {
@@ -913,12 +903,9 @@ body {
   grid-row-gap: 48px;
   padding-top: 20px;
   padding-bottom: 20px;
-
-
 }
 
 .rightDescriptionWhite {
-
   p {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -937,30 +924,23 @@ body {
 
 .wegmansLeftChannel {
   grid-area: 1 / 2 / 2 / 4;
-
 }
 
 .wegmansRightChannel {
   grid-area: 1 / 5 / 2 / 8;
-
 }
 
 .wegmansAlmostFullWidth {
   grid-area: 1 / 2 / 2 / 8;
-
 }
 
 .wegmansLeftHalf {
   grid-area: 1 / 2 / 2 / 5;
-
 }
 
 .wegmansFullWidth {
   grid-column: 1/9;
-
 }
-
-
 
 .wegmansBrief {
   background-color: black;
@@ -974,7 +954,6 @@ body {
 }
 
 .rightDescription {
-
   p {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1022,12 +1001,8 @@ p {
   padding-bottom: 20px;
 }
 
-
-
-
 .wegmansTriItemFirst {
   grid-column: 2/4;
-
 
   img {
     width: 100%;
@@ -1109,7 +1084,6 @@ p {
   }
 }
 
-
 .weatherAnimationContainer {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -1143,4 +1117,11 @@ p {
   color: black;
   margin-bottom: -20px;
   margin-top: 100px;
+}
+
+.wegmansDemo {
+  grid-column: 2/8;
+  width: 100%;
+  height: auto;
+  background-color: black;
 }
