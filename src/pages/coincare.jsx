@@ -6,12 +6,6 @@ export default class CoinCare extends Component {
   render() {
     return (
       <div>
-        {/* <MetaTags>
-          <title>Home</title>
-          <meta name="google" content="notranslate" />
-        </MetaTags>
-
-        <Navigation page={'home'} /> */}
         <div className="App"></div>
       </div>
     )

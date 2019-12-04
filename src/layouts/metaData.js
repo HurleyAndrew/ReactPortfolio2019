@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Favicon from '../images/favicon.jpg'
+import Favicon from '../images/favicon.png'
 import Social from '../images/social.jpg'
 
 import './index.scss'
@@ -23,8 +23,8 @@ const TemplateWrapper = ({ children }) => (
     <meta property="og:type" content="website" />
     <meta property="og:image" content={Social} />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="720" />
-    <meta property="og:image:height" content="400" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="600" />
     <meta property="og:site_name" content="https://hurleyandrew.com/" />
     <meta property="og:url" content="https://hurleyandrew.com/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

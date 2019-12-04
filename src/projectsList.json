@@ -28,15 +28,6 @@
     },
     {
       "id": 4,
-      "title": "Chore Management",
-      "date": "Spring 2019",
-      "link": "https://www.behance.net/gallery/74068673/Chore-Management",
-      "image": "choremanagement.jpg",
-      "color": "3F5165",
-      "linkType": "external"
-    },
-    {
-      "id": 5,
       "title": "3D Design",
       "date": "Ongoing",
       "link": "/d3design/",
@@ -45,7 +36,35 @@
       "linkType": "internal"
     },
     {
+      "id": 5,
+      "title": "New Media Club Site",
+      "date": "Fall 2018",
+      "link": "http://newmediaclub.rit.edu/",
+      "image": "newmediaclubsite.jpg",
+      "color": "213B9A",
+      "linkType": "external"
+    },
+    {
       "id": 6,
+      "title": "Interactive Story",
+      "date": "Fall 2018",
+      "link": "https://dansegliode.github.io/threepigs/",
+      "image": "interactivestory.jpg",
+      "color": "9A218E",
+      "linkType": "external"
+    },
+    {
+      "id": 7,
+      "title": "Chore Management",
+      "date": "Spring 2019",
+      "link": "https://www.behance.net/gallery/74068673/Chore-Management",
+      "image": "choremanagement.jpg",
+      "color": "3F5165",
+      "linkType": "external"
+    },
+    {
+      "id": 8,
+
       "title": "Coin Care",
       "date": "Fall 2018",
       "link": "https://www.behance.net/gallery/74068671/Coin-Care",

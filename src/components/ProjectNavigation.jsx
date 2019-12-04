@@ -2,7 +2,7 @@ import React from 'react'
 
 import ProjectPreview from './ProjectPreview'
 
-const projectCount = 5
+const projectCount = 8
 
 class ProjectNavigation extends React.Component {
   constructor(props) {
