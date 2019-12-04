@@ -25,48 +25,19 @@ class Navigation extends React.Component {
       >
         <div className="navItems">
           <div className="navLogo">AH</div>
-          <div className="navLinkItems">
-            <Link className="navLink" to={'/'}>
-              Projects
-              <div className="navUnderline "></div>
-            </Link>
-            <div className=" navHover">
-              <Link className=" navLink" to={'/other/'}>
-                Other
-                <div className="navUnderline "></div>
-              </Link>
-              <div className="navOptions">
-                {/* <Link to={'/woodworking/'}>
-                  <div className="miniLink">Wood Working</div>
-                </Link> */}
-                <a
-                  href=" http://newmediaclub.rit.edu/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="miniLink">NMC Site Design/Code</div>
-                </a>
 
-                <a
-                  href="https://dansegliode.github.io/threepigs/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="miniLink">Three Little Pigs</div>
-                </a>
-              </div>
-            </div>
-            {/* <Link className="navLink" to={'/about/'}> */}
-            <a
-              href="https://www.dropbox.com/s/awdm6mfvwjaydiz/CapstoneResume.pdf?dl=0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="navLink"
-            >
-              Resume <div className="navUnderline "></div>
-            </a>
-            {/* </Link> */}
-          </div>
+          <Link className="navLink navItemOne" to={'/'}>
+            Projects
+          </Link>
+
+          <a
+            href="https://www.dropbox.com/s/awdm6mfvwjaydiz/CapstoneResume.pdf?dl=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="navLink navItemTwo"
+          >
+            Resume
+          </a>
         </div>
       </div>
     )

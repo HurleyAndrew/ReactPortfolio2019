@@ -3,20 +3,20 @@ import '../layouts/index.js'
 import '../layouts/metaData.js'
 import Navigation from '../components/Navigation'
 import { Link } from 'gatsby'
-
+import MetaTags from 'react-meta-tags'
 export default class WegmansWeatherApplication extends Component {
   render() {
     let color = '#000'
     return (
       <div>
-        {/* <MetaTags>
-          <title>Home</title>
-          <meta name="google" content="notranslate" />
+        <MetaTags>
+          <title>Wegmans Weather</title>
         </MetaTags>
-
-        <Navigation page={'home'} /> */}
         <div className="App">
-          <Navigation color={'#000000'}></Navigation>
+          <Navigation
+            color={'#000000'}
+            page={'wegmansweatherapplication'}
+          ></Navigation>
           <div className="wegmansWrapper">
             <div className="wegmansHero">
               <h3
@@ -235,12 +235,12 @@ export default class WegmansWeatherApplication extends Component {
               <div className="rightDescription">
                 <p
                   style={{
-                    color: color,
+                    color: '#fff',
                   }}
                 >
                   When creating the user interface we worked in Figma which lets
                   us collaboratively work on our designs in real time. This
-                  helped us work synchronously and interate quicker then other
+                  helped us work synchronously and iterate quicker then other
                   options. Any complex or raster designs would be created in
                   their respective applications. This let us have a history of
                   past designs to reference and a shared style library.
@@ -454,38 +454,6 @@ export default class WegmansWeatherApplication extends Component {
 
             <div className="leftTagContainer wegmansFullWidth">
               <div className="leftTag leftTagWithBg">PROTOTYPE</div>
-              <div className="rightDescriptionWhite">
-                <div className="rightDescriptionImage">
-                  <img
-                    src={require('../images/symbiosisImages/symbiosis7.jpg')}
-                    alt="project"
-                  />
-                </div>
-                <div
-                  className="rightDescriptionTitle"
-                  style={{
-                    color: color,
-                  }}
-                >
-                  I also made a box!
-                </div>
-                <p
-                  style={{
-                    color: color,
-                  }}
-                >
-                  I do woodworking as a hobby and whenever I go home on breaks I
-                  spend all my time working in my lil’ shop. While I was home I
-                  made a box for the deck of cards out of leopard wood and
-                  bamboo to really complete the project.
-                </p>
-              </div>
-            </div>
-
-            <div className="leftTagContainer wegmansFullWidth">
-              <div className="leftTag leftTagWithBg viewmoreProjects">
-                PROTOTYPE
-              </div>
             </div>
 
             <div className="wegmansFullWidth weatherAnimationContainer">
@@ -501,7 +469,7 @@ export default class WegmansWeatherApplication extends Component {
 
           <div className="leftTagContainer wegmansFullWidth">
             <div className="leftTag leftTagWithBg viewmoreProjects">
-              VIEW MORE PROJECTS
+              MORE PROJECTS
             </div>
           </div>
 

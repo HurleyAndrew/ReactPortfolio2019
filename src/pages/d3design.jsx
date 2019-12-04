@@ -5,6 +5,7 @@ import D3Photos from '../d3photos.json'
 import Navigation from '../components/Navigation'
 import ProjectsAdvertisement from '../components/ProjectsAdvertisement'
 import { Link } from 'gatsby'
+import MetaTags from 'react-meta-tags'
 
 class D3design extends Component {
   createElements = () => {
@@ -37,6 +38,9 @@ class D3design extends Component {
   render() {
     return (
       <div>
+        <MetaTags>
+          <title>3D Design</title>
+        </MetaTags>
         <div className="App">
           <div className="wrapper">
             <Navigation className="navComponent " color={'#FFAF39'} />

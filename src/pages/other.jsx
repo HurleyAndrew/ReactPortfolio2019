@@ -7,12 +7,6 @@ export default class Other extends Component {
   render() {
     return (
       <div>
-        {/* <MetaTags>
-          <title>Home</title>
-          <meta name="google" content="notranslate" />
-        </MetaTags>
-
-        <Navigation page={'home'} /> */}
         <div className="App">
           <div className="wrapper">
             <Navigation className="navComponent projectsNav" />

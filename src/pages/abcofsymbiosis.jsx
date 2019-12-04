@@ -3,18 +3,16 @@ import '../layouts/index.js'
 import '../layouts/metaData.js'
 import Navigation from '../components/Navigation'
 import { Link } from 'gatsby'
-
+import MetaTags from 'react-meta-tags'
 export default class Abcofsymbiosis extends Component {
   render() {
     let color = '#3556FF'
     return (
       <div>
-        {/* <MetaTags>
-          <title>Home</title>
-          <meta name="google" content="notranslate" />
+        <MetaTags>
+          <title>ABC's of Symbiosis</title>
         </MetaTags>
 
-        <Navigation page={'home'} /> */}
         <div className="App">
           <Navigation color={'#3556FF'}></Navigation>
           <div className="wegmansWrapper">
@@ -126,15 +124,15 @@ export default class Abcofsymbiosis extends Component {
                     color: color,
                   }}
                 >
-                  After recieveing our letters we started researching pairs.
+                  After receiving our letters we started researching pairs.
                 </div>
                 <p
                   style={{
                     color: color,
                   }}
                 >
-                  Letters were handed out randomly and each person got 3 letters
-                  to create content for. While one person got two cards and the
+                  Letters were handed out randomly and each person got 3 to
+                  create content for. While one person got two cards and the
                   cover to create.
                 </p>
                 <p
