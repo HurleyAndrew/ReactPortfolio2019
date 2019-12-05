@@ -6,7 +6,7 @@ import Navigation from '../components/Navigation'
 import ProjectsAdvertisement from '../components/ProjectsAdvertisement'
 import { Link } from 'gatsby'
 import MetaTags from 'react-meta-tags'
-
+import Favicon from '../images/favicon.png'
 class D3design extends Component {
   createElements = () => {
     let elementArray = []
@@ -40,6 +40,7 @@ class D3design extends Component {
       <div>
         <MetaTags>
           <title>3D Design</title>
+          <link rel="icon" href={Favicon} type="image/x-icon" />
         </MetaTags>
         <div className="App">
           <div className="wrapper">

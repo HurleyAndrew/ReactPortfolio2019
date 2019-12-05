@@ -4,6 +4,7 @@ import '../layouts/metaData.js'
 import Navigation from '../components/Navigation'
 import { Link } from 'gatsby'
 import MetaTags from 'react-meta-tags'
+import Favicon from '../images/favicon.png'
 export default class WegmansWeatherApplication extends Component {
   render() {
     let color = '#000'
@@ -11,6 +12,7 @@ export default class WegmansWeatherApplication extends Component {
       <div>
         <MetaTags>
           <title>Wegmans Weather</title>
+          <link rel="icon" href={Favicon} type="image/x-icon" />
         </MetaTags>
         <div className="App">
           <Navigation

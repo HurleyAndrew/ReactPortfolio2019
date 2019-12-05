@@ -5,12 +5,43 @@ import Helmet from 'react-helmet'
 
 import Favicon from '../images/favicon.png'
 import Social from '../images/social.jpg'
+import favicon16 from '../images/favicon16.png'
+import favicon32 from '../images/favicon32.png'
+import favicon64 from '../images/favicon64.png'
 
 import './index.scss'
-
+console.log(Favicon)
+console.log(Social)
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet>
+    <Helmet
+      meta={[
+        {
+          name: 'description',
+          content: 'Andrew Hurley - Product Designer',
+        },
+        {
+          name: 'keywords',
+          content:
+            'designer, product designer, visual designer, rochester institute of technology, andrew hurley, visual designer, motion graphics, 3d design',
+        },
+      ]}
+      link={[
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '16x16',
+          href: `${favicon16}`,
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '32x32',
+          href: `${favicon32}`,
+        },
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon64}` },
+      ]}
+    >
       <meta name="google" content="notranslate" />
       <meta http-equiv="Content-Language" content="en" />
 
