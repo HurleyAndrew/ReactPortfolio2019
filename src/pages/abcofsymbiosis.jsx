@@ -5,6 +5,9 @@ import Navigation from '../components/Navigation'
 import { Link } from 'gatsby'
 import MetaTags from 'react-meta-tags'
 import Favicon from '../images/favicon.png'
+
+import MetaInfo from '../components/MetaInfo'
+
 export default class Abcofsymbiosis extends Component {
   render() {
     let color = '#3556FF'
@@ -13,6 +16,7 @@ export default class Abcofsymbiosis extends Component {
         <MetaTags>
           <title>ABC's of Symbiosis</title>
           <link rel="icon" href={Favicon} type="image/x-icon" />
+          <MetaInfo />
         </MetaTags>
 
         <div className="App">
@@ -46,7 +50,7 @@ export default class Abcofsymbiosis extends Component {
                 one another.
               </p>
               <a
-                href="https://www.behance.net/gallery/87616593/Symbiotic-Pairs-Matching-Game"
+                href="http://students.miguelcardona.com/courses/2019/interactive-iv/symbiotic/andrew_hurley/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

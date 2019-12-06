@@ -14,36 +14,9 @@ console.log(Favicon)
 console.log(Social)
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      meta={[
-        {
-          name: 'description',
-          content: 'Andrew Hurley - Product Designer',
-        },
-        {
-          name: 'keywords',
-          content:
-            'designer, product designer, visual designer, rochester institute of technology, andrew hurley, visual designer, motion graphics, 3d design',
-        },
-      ]}
-      link={[
-        {
-          rel: 'icon',
-          type: 'image/png',
-          sizes: '16x16',
-          href: `${favicon16}`,
-        },
-        {
-          rel: 'icon',
-          type: 'image/png',
-          sizes: '32x32',
-          href: `${favicon32}`,
-        },
-        { rel: 'shortcut icon', type: 'image/png', href: `${favicon64}` },
-      ]}
-    >
+    <Helmet>
       <meta name="google" content="notranslate" />
-      <meta http-equiv="Content-Language" content="en" />
+      <meta httpEquiv="Content-Language" content="en" />
 
       <meta
         name="description"
@@ -65,12 +38,18 @@ const TemplateWrapper = ({ children }) => (
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
 
+      <meta
+        name="keywords"
+        content="Andrew, Hurley, Andrew Hurley, Product Design, Rochester, Designer, 3D Design, Rendering, Artist, User Experience, Visual Design, Creator, Motion, Motion Design"
+      />
+
       <meta name="author" content="Andrew Hurley" />
 
       <title>Andrew Hurley</title>
 
       <link rel="shortcut icon" href={Favicon} type="image/x-icon" />
       <link rel="icon" href={Favicon} type="image/x-icon" />
+      {console.log('helmet entered')}
     </Helmet>
     <div>{children()}</div>
   </div>
