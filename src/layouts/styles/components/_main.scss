@@ -453,12 +453,14 @@ body {
 }
 
 // project
+
 .projectAlign {
   display: flex;
   flex-flow: column;
-  /* justify-content: center; */
-  // align-items: center;
+  max-width: 1800px;
+  margin: 0 auto;
 }
+
 
 .projectContainer {
   display: flex;

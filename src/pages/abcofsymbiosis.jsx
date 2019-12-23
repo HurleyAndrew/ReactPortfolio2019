@@ -50,7 +50,7 @@ export default class Abcofsymbiosis extends Component {
                 one another.
               </p>
               <a
-                href="http://students.miguelcardona.com/courses/2019/interactive-iv/symbiotic/andrew_hurley/"
+                href="http://students.miguelcardona.com/abcs-2019/symbiosis/andrew_hurley/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
