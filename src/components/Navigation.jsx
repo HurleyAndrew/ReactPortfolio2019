@@ -31,7 +31,7 @@ class Navigation extends React.Component {
           </Link>
 
           <a
-            href="https://www.dropbox.com/s/awdm6mfvwjaydiz/CapstoneResume.pdf?dl=0"
+            href="https://www.dropbox.com/s/emz1m7f19l4mmnp/Resume2020Hurley.pdf?dl=0"
             target="_blank"
             rel="noopener noreferrer"
             className="navLink navItemTwo"
