@@ -52,53 +52,37 @@ export default class IndexPage extends Component {
 
         <div className="App">
           <div className="wrapper">
-            <div className="homeTop">
-              <div className="heroAbout">
-                <div className="heyitsmeContainer">
-                  <div className="heyitsme">Hey it's me,</div>
-                  <div className="meTitle">Andrew Hurley</div>
-                </div>
-                <div className="productDesignContainer">
-                  <div className="productDesignContainerTitle">
-                    Product Designer
-                  </div>
-                  <div className="productDesignContainerOtherJob">
-                    and recreational<br></br>
-                    <span>{randomWord}</span>
-                  </div>
-                </div>
-                {/* <div className="downArrow"></div> */}
-              </div>
+            <div className="homeHeroContainer wegmansWrapper">
+              <div className="mobiusHero"></div>
 
-              <div className="heroImageContainer" id="heroImageContainer">
-                {/* <HeroComponent /> */}
-
-                <div className="heroImage1 bounce-1"></div>
-                <div className="heroImage2 bounce-2">
-                  <video
-                    className="heroVideo"
-                    playsInline
-                    autoPlay
-                    muted
-                    loop
-                    poster={image}
+              <div className="homeTextContainer">
+                <div className="heyDiv">Hey!</div>
+                <div className="homePara">
+                  My name is <b>Andrew Hurley</b> and I am a{' '}
+                  <b>Product Designer</b> who loves designing <b>intuitive</b>{' '}
+                  and <b>unique experiences</b> for users.
+                </div>
+                <div className="homePara">
+                  My free time can consist of activities such as{' '}
+                  <b>woodworking</b>,<b>rendering</b>, <b>hiking</b>, and{' '}
+                  <b>dog petting</b>.
+                </div>
+                <div className="homeButtons">
+                  <a href="#projects" className="Button viewProjectsButton">
+                    <div>CHECK ME OUT!</div>
+                  </a>
+                  <a
+                    href="https://www.dropbox.com/s/emz1m7f19l4mmnp/Resume2020Hurley.pdf?dl=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="Button resumeButton"
                   >
-                    <source src={video} type="video/webm" />
-                  </video>
+                    <div>RESUME</div>
+                  </a>
                 </div>
-                <div className="heroImage3 bounce-3"></div>
-                <div className="heroImage4 bounce-4"></div>
               </div>
             </div>
-
-            <div className="projectList">
-              <div className="projectDividerLine">
-                <p>Projects</p>
-                <div></div>
-              </div>
-              <ProjectNavigation key={'projectnav1'} id="anchorLink" />
-            </div>
-            <Navigation key={'sitenav1'} className="navComponent" color="" />
+            <ProjectNavigation key={'projectnav1'} />
           </div>
         </div>
       </div>

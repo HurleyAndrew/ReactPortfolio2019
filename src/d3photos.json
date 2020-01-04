@@ -1,62 +1,79 @@
 {
   "Photos": [{
     "id": 0,
-    "link": "bumpyplanet1.jpg"
+    "link": "cubeAnimation.gif",
+    "alt": "Cube Animation"
   }, {
     "id": 1,
-    "link": "flameball1.jpg"
+    "link": "flameball1.jpg",
+    "alt": "Flame Ball"
 
   }, {
     "id": 2,
-    "link": "glasscylinders1.jpg"
+    "link": "glasscylinders1.jpg",
+    "alt": "Glass Cylinder Caustics"
   }, {
     "id": 3,
-    "link": "groupedballs1.jpg"
+    "link": "groupedballs1.jpg",
+    "alt": "Color Stepping Spheres"
 
   }, {
     "id": 4,
-    "link": "museumballs1.jpg"
+    "link": "museumballs1.jpg",
+    "alt": "Architectural Gems Still "
   }, {
     "id": 5,
-    "link": "museumgems1.jpg"
+    "link": "museumgems1.jpg",
+    "alt": "Architectural Gems Still Close Up"
 
   }, {
     "id": 6,
-    "link": "nmcpens1.jpg"
+    "link": "nmcpens1.jpg",
+    "alt": "iPad and Pens on a Desk"
   }, {
     "id": 7,
-    "link": "orangedots1.jpg"
+    "link": "orangedots1.jpg",
+    "alt": "Gummy Dots"
 
   }, {
     "id": 8,
-    "link": "pens1.jpg"
+    "link": "pens1.jpg",
+    "alt": "Pen Pile"
   }, {
     "id": 9,
-    "link": "rubikscube1.jpg"
+    "link": "rubikscube1.jpg",
+    "alt": "Depth of Field"
 
   }, {
     "id": 10,
-    "link": "snowball1.jpg"
+    "link": "snowball1.jpg",
+    "alt": "Snowballs"
 
   }, {
     "id": 11,
-    "link": "spiralballs1.jpg"
+    "link": "spiralballs1.jpg",
+    "alt": "Spiral Ball Animation Still"
 
   }, {
     "id": 12,
-    "link": "spongecube1.jpg"
+    "link": "spongecube1.jpg",
+    "alt": "Sponge Like Cube"
 
   }, {
     "id": 13,
-    "link": "glassspherecube2.jpg"
+    "link": "glassspherecube2.jpg",
+    "alt": "Glass Spheres in a Cube Shape"
 
   }, {
     "id": 14,
-    "link": "marshmellowcube2.jpg"
+    "link": "marshmellowcube2.jpg",
+    "alt": "Marshmellow Cubes"
 
   }, {
     "id": 15,
-    "link": "cubeAnimation.gif"
+    "link": "bumpyplanet1.jpg",
+    "alt": "Bump Planet"
+
 
   }]
 }

@@ -18,27 +18,19 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div
-        style={{
-          backgroundColor: this.props.color,
-        }}
-      >
-        <div className="navItems">
-          <div className="navLogo">AH</div>
+      <div className="wegmansWrapper navContainer">
+        <Link className="navLink navItemOne" to={'/#projects'}>
+          Work
+        </Link>
 
-          <Link className="navLink navItemOne" to={'/'}>
-            Projects
-          </Link>
-
-          <a
-            href="https://www.dropbox.com/s/emz1m7f19l4mmnp/Resume2020Hurley.pdf?dl=0"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="navLink navItemTwo"
-          >
-            Resume
-          </a>
-        </div>
+        <a
+          href="https://www.dropbox.com/s/emz1m7f19l4mmnp/Resume2020Hurley.pdf?dl=0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navLink navItemTwo"
+        >
+          Resume
+        </a>
       </div>
     )
   }

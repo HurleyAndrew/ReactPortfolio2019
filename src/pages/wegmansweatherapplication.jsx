@@ -7,7 +7,7 @@ import MetaTags from 'react-meta-tags'
 import Favicon from '../images/favicon.png'
 export default class WegmansWeatherApplication extends Component {
   render() {
-    let color = '#000'
+    let color = '#00141B'
     return (
       <div>
         <MetaTags>
@@ -16,7 +16,7 @@ export default class WegmansWeatherApplication extends Component {
         </MetaTags>
         <div className="App">
           <Navigation
-            color={'#000000'}
+            color={'#00141B'}
             page={'wegmansweatherapplication'}
           ></Navigation>
           <div className="wegmansWrapper">
@@ -61,7 +61,7 @@ export default class WegmansWeatherApplication extends Component {
                       color: color,
                     }}
                   >
-                    Process
+                    Process Deck
                   </span>
                 </div>
               </a>
@@ -204,18 +204,17 @@ export default class WegmansWeatherApplication extends Component {
                     color: color,
                   }}
                 >
-                  Using colors strictly.
+                  Using cards to create organization.
                 </div>
                 <p
                   style={{
                     color: color,
                   }}
                 >
-                  The majority of the type and UI is colorless. Any color is
-                  used are to indicate severity of the weather event or the zone
-                  that the event is in. The rest of the color finds its way in
-                  through animations and store front photography for the region
-                  cards.
+                  We wanted the users to feel as if they could quickly go
+                  between regions and forecasts as to not feel bogged down by
+                  all of the information available. But also lets them multitask
+                  and plan between the other stores.
                 </p>
               </div>
             </div>

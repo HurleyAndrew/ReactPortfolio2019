@@ -10,7 +10,7 @@ import MetaInfo from '../components/MetaInfo'
 
 export default class Abcofsymbiosis extends Component {
   render() {
-    let color = '#3556FF'
+    let color = '#00141B'
     return (
       <div>
         <MetaTags>
@@ -20,7 +20,7 @@ export default class Abcofsymbiosis extends Component {
         </MetaTags>
 
         <div className="App">
-          <Navigation color={'#3556FF'}></Navigation>
+          <Navigation color={'#00141B'}></Navigation>
           <div className="wegmansWrapper">
             <div className="wegmansHero">
               <h3
@@ -65,7 +65,7 @@ export default class Abcofsymbiosis extends Component {
                       color: color,
                     }}
                   >
-                    Process
+                    Process Deck
                   </span>
                 </div>
               </a>
