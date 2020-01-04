@@ -31,7 +31,7 @@ class D3design extends Component {
 
     // elementArray.push(<div className="d3designDivider"></div>)
 
-    for (let index = 12; index < 16; index++) {
+    for (let index = 12; index < 17; index++) {
       elementArray.push(
         // <img
         //   src={require('./../images/' + D3Photos.Photos[index].link)}
@@ -62,14 +62,14 @@ class D3design extends Component {
         <div className="App">
           <div className="wrapper">
             <Navigation className="navComponent " color={'#FFAF39'} />
-            <div
+            {/* <div
               className="pageTitleBar"
               style={{
                 backgroundColor: '#FFAF39',
               }}
             >
               <div className="pageTitle">3D Design</div>
-            </div>
+            </div> */}
           </div>
           <div className="d3designPhotoContainer">{this.createElements()}</div>
           <ProjectsAdvertisement />

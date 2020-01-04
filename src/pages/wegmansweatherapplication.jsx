@@ -45,26 +45,16 @@ export default class WegmansWeatherApplication extends Component {
                 with replacing their current email based notification platform
                 with a better digital solution.
               </p>
-              <a
-                href="https://www.behance.net/gallery/81917587/Wegmans-Forecast"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div
-                  className="processButton"
-                  style={{
-                    borderColor: color,
-                  }}
+
+              <div className="processButton">
+                <a
+                  href="https://www.behance.net/gallery/81917587/Wegmans-Forecast"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <span
-                    style={{
-                      color: color,
-                    }}
-                  >
-                    Process Deck
-                  </span>
-                </div>
-              </a>
+                  <span>Process Deck</span>
+                </a>
+              </div>
             </div>
             <img
               className="wegmanHeroImage"

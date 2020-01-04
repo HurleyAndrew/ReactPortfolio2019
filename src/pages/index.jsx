@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import '../layouts/index.js'
 import '../layouts/metaData.js'
-import Navigation from './../components/Navigation'
 import ProjectNavigation from './../components/ProjectNavigation'
-import video from './../images/webMtest.webm'
-import image from './../images/heroFallback.png'
 import MetaTags from 'react-meta-tags'
 
 export default class IndexPage extends Component {

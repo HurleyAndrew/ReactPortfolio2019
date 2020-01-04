@@ -9,8 +9,18 @@ import Favicon from '../images/favicon.png'
 import MetaInfo from '../components/MetaInfo'
 
 export default class Abcofsymbiosis extends Component {
+  _isMounted = false
+
+  componentDidMount() {
+    this._isMounted = true
+  }
+
+  componentWillUnmount() {
+    this._isMounted = false
+  }
   render() {
     let color = '#00141B'
+
     return (
       <div>
         <MetaTags>
@@ -19,7 +29,7 @@ export default class Abcofsymbiosis extends Component {
           <MetaInfo />
         </MetaTags>
 
-        <div className="App">
+        <div className="App noScrollBehavior">
           <Navigation color={'#00141B'}></Navigation>
           <div className="wegmansWrapper">
             <div className="wegmansHero">
@@ -49,26 +59,16 @@ export default class Abcofsymbiosis extends Component {
                 symbiotic relationship is one where both creatures benefit from
                 one another.
               </p>
-              <a
-                href="http://students.miguelcardona.com/abcs-2019/symbiosis/andrew_hurley/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div
-                  className="processButton"
-                  style={{
-                    borderColor: color,
-                  }}
+
+              <div className="processButton">
+                <a
+                  href="http://students.miguelcardona.com/abcs-2019/symbiosis/andrew_hurley/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <span
-                    style={{
-                      color: color,
-                    }}
-                  >
-                    Process Deck
-                  </span>
-                </div>
-              </a>
+                  <span>Process Deck</span>
+                </a>
+              </div>
             </div>
             <img
               className="wegmanHeroImage"
