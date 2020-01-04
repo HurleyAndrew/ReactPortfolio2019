@@ -12,14 +12,14 @@ export default class DemoReel extends Component {
         <div className="App">
           <div className="wrapper">
             <Navigation className="navComponent " color={'#A2528A'} />
-            <div
+            {/* <div
               className="pageTitleBar"
               style={{
                 backgroundColor: '#A2528A',
               }}
             >
               <div className="pageTitle">Demo Reel</div>
-            </div>
+            </div> */}
           </div>
           <div className="d3designPhotoContainer">
             <video className="demoReelVideo" controls>

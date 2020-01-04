@@ -22,7 +22,7 @@ class ProjectPreview extends React.Component {
         )
       } else {
         return (
-          <a className="" href={link} target="_blank" rel="noopener noreferrer">
+          <a href={link} target="_blank" rel="noopener noreferrer">
             <div className="Button projectButton">
               <span>Check It Out</span>
             </div>
