@@ -12,8 +12,6 @@ html {
   font-family: 'Work Sans', sans-serif;
   overflow-x: hidden;
   // scroll-behavior: smooth;
-
-
 }
 
 .noScrollBehavior {
@@ -166,7 +164,6 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #00141b;
-
 }
 
 .homeTextContainer {
@@ -205,24 +202,21 @@ body {
   height: auto;
   margin-top: 30px;
   padding-top: 2px;
-  transition: .167s ease-in-out;
+  transition: 0.167s ease-in-out;
 }
 
 .Button:hover {
   cursor: pointer;
   color: #ffffff;
-  background-color: #F6830F;
-  border-color: #F6830F;
+  background-color: #f6830f;
+  border-color: #f6830f;
 }
 
 .viewProjectsButton {
   color: #00141b;
   background-color: #ffffff;
   width: 100%;
-
 }
-
-
 
 .resumeButton {
   border: 1px solid #ffffff;
@@ -239,8 +233,6 @@ body {
   margin-top: 50px;
   width: 40%;
 }
-
-
 
 .homePara {
   font-family: 'Inconsolata', monospace;
@@ -436,7 +428,7 @@ body {
   display: none;
 }
 
-.navHover:hover>.navOptions {
+.navHover:hover > .navOptions {
   display: inline-block;
 }
 
@@ -523,7 +515,6 @@ body {
 
 .projectNavAndPreview {
   margin-bottom: 100px;
-
 }
 
 .pageDividerLineContainer {
@@ -900,7 +891,7 @@ a:hover {
   border: 2px solid #00141b;
   box-sizing: border-box;
   border-radius: 145px;
-  transition: .167s ease-in-out;
+  transition: 0.167s ease-in-out;
 
   span {
     font-family: Work Sans;
@@ -912,7 +903,6 @@ a:hover {
     text-align: center;
 
     color: #00141b;
-
   }
 }
 
@@ -977,10 +967,9 @@ a:hover {
 }
 
 .leftTagWithBg {
-  width: 125px;
   padding: 15px;
   background: #00141b;
-  border-radius: 57px;
+  border-radius: 20px;
 
   text-align: center;
 }
@@ -1063,11 +1052,11 @@ a:hover {
   color: white;
   grid-column: 2/3;
   padding: 20px;
-  height: 20px;
-  width: 200px;
+  height: 15px;
+  width: max-content;
   background-color: black;
   // text-align: center;
-  line-height: 24px;
+  line-height: 20px;
   font-weight: bold;
   font-size: 16px;
 }
@@ -1228,8 +1217,6 @@ p {
 
 // screen too big 1800px
 @media screen and (min-width: 1800px) {
-
-
   .heroAbout {
     margin-left: 320px;
   }
@@ -1252,16 +1239,12 @@ p {
 }
 
 @media screen and (max-width: 1500px) {
-
   .resumeButton {
-
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 1200px) {
-
-
   .heroImageContainer {
     z-index: -30;
   }
@@ -1352,7 +1335,7 @@ p {
     margin-top: 15px;
     width: 150px;
     height: 40px;
-    border: 2px solid #3387ff;
+    border: 2px solid #00141b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1361,7 +1344,15 @@ p {
       font-size: 14px;
     }
   }
+  .processButton:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #00141b;
 
+    span {
+      color: white;
+    }
+  }
   .rightDescription {
     grid-column: 2/8;
   }
@@ -1408,7 +1399,7 @@ p {
     margin-top: 15px;
     width: 150px;
     height: 40px;
-    border: 2px solid #3387ff;
+    border: 2px solid #00141b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1447,8 +1438,8 @@ p {
     color: white;
     // grid-column: 2;
     padding: 12px;
-    height: 12px;
-    width: 110px;
+    height: 10px;
+    width: max-content;
     background-color: black;
     line-height: 16px;
     font-weight: bold;
@@ -1494,8 +1485,9 @@ p {
 
   .leftTag {
     padding: 22px;
-    height: 12px;
-    width: 180px;
+    height: 10px;
+    // width: 180px;
+    width: max-content;
   }
 
   .projectAdvertisementContainer div {
@@ -1503,7 +1495,6 @@ p {
     margin-left: 10px;
     margin-right: 10px;
   }
-
 }
 
 @media screen and (max-width: 650px) {
@@ -1515,7 +1506,6 @@ p {
     height: 250px;
     // width: 400px;
     grid-column: 2/8;
-
   }
 
   .projectTextContainer {
