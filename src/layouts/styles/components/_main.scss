@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
+
 $padding-amount: 100px;
 
 * {
@@ -9,6 +11,9 @@ html {
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
   overflow-x: hidden;
+
+
+
 }
 
 body {
@@ -21,7 +26,7 @@ body {
 }
 
 .homeTop {
-//   max-width: 2200px;
+  //   max-width: 2200px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   /* grid-template-rows: 100vh auto; */
@@ -142,124 +147,94 @@ body {
   }
 }
 
-.heroImageContainer {
-  top: 290px;
-  // position: absolute;
-  height: max-content;
-  width: max-content;
-  width: 500px;
-  height: 500px;
-  z-index: -30;
-
-  .heroImage1 {
-    background-image: url('./../images/hero/hero1.png');
-    transform: scale(1);
-    z-index: -1;
-
-    position: absolute;
-    height: 100vh;
-    width: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 0;
-    top: 0;
-    margin-right: 100px;
-  }
-
-  .heroImage2 {
-    background-image: url('./../images/hero/hero2.png');
-    transform: scale(1);
-    z-index: -2;
-
-    position: absolute;
-    height: 100vh;
-    width: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 0;
-    top: 0;
-    margin-right: 100px;
-  }
-
-  .heroImage3 {
-    background-image: url('./../images/hero/hero3.png');
-    transform: scale(1);
-    z-index: -3;
-
-    position: absolute;
-    height: 100vh;
-    width: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 0;
-    top: 0;
-    margin-right: 100px;
-  }
-
-  .heroImage4 {
-    background-image: url('./../images/hero/hero4.png');
-    transform: scale(1);
-    z-index: -4;
-
-    position: absolute;
-    height: 100vh;
-    width: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 0;
-    top: 0;
-    margin-right: 100px;
-  }
-}
-
-.heroVideo {
+.mobiusHero {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  height: 350px;
-  width: 350px;
-
-  // background-image: url('./../images/heroVideo.mp4');
-  // background-color: black;
+  background-image: url('./../images/mobiusStripHero.png');
   background-repeat: no-repeat;
   background-size: contain;
-  z-index: 1;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 70%;
 }
 
-//  Hey Its Me Section
-.heroAbout {
-  display: flex;
-  flex-direction: column;
-  z-index: 1;
-  vertical-align: middle;
-  justify-content: center;
-  /* position: absolute; */
-  top: 28vh;
-  margin-left: 100px;
-  grid-column: 1/5;
+.homeHeroContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: #00141b;
+
 }
 
-.heyitsme {
-  font-family: 'Work Sans', sans-serif;
+.homeTextContainer {
+  // background-color: black;
+  grid-column: 2/5;
+  align-self: center;
+  color: #ffffff;
+  z-index: 10;
+}
+
+.heyDiv {
+  font-family: Work Sans;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 36px;
-  line-height: 30px;
+  line-height: 34px;
+  /* identical to box height, or 94% */
+
   color: #ffffff;
-  opacity: 0.5;
 }
 
-.meTitle {
-  font-family: 'Work Sans ', sans-serif;
+.homeButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.Button {
+  font-family: Work Sans;
   font-style: normal;
-  font-weight: 800;
-  font-size: 84px;
-  line-height: 113px;
-  width: 800px;
-  /* identical to box height */
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 79px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.viewProjectsButton {
+  color: #00141b;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.resumeButton {
+  border: 1px solid #ffffff;
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 200px;
+  width: 65%;
+  // background-color: #00141b;
+}
+
+.projectButton {
+  color: #ffffff;
+  background-color: #00141b;
+  margin-top: 50px;
+  width: 40%;
+}
+
+.homePara {
+  font-family: 'Inconsolata', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 25px;
 }
 
 .productDesignContainerTitle {
@@ -376,6 +351,10 @@ body {
   z-index: 15;
 }
 
+.navContainer {
+  height: 88px;
+}
+
 .navLogo {
   font-weight: bold;
   font-size: 42px;
@@ -393,13 +372,17 @@ body {
 }
 
 .navItemOne {
-  grid-column: 6;
+  grid-column: 2;
   align-self: center;
+  color: black;
+  text-align: left;
 }
 
 .navItemTwo {
-  grid-column: 7;
+  grid-column: 3;
   align-self: center;
+  color: black;
+  text-align: left;
 }
 
 .navItems {
@@ -459,62 +442,68 @@ body {
   flex-flow: column;
   max-width: 1800px;
   margin: 0 auto;
+  margin-top: 125px;
 }
 
-
 .projectContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  /* padding-left: 100px; */
-  /* padding-right: 100px; */
-  width: auto;
-  margin-top: 150px;
-  flex-flow: wrap;
-  // max-width: 1600px;
+  grid-column: 1/8;
 }
 
 .projectTextContainer {
   display: flex;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  align-self: center;
+
   flex-direction: column;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  /* width: fit-content; */
-  max-width: 280px;
-  min-width: 500px;
-  padding: 25px 32px 25px 40px;
-  border: 5px solid;
-  margin-top: 20px;
-  // margin-right: 80px;
+  justify-content: left;
+  grid-column: 5/8;
+
+  width: 100%;
+  margin-left: 50px;
 }
 
 .projectDate {
+  font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
 
-  // color: #F2A23B;
-
-  opacity: 0.6;
+  color: #00141b;
 }
 
 .projectTitle {
+  font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 36px;
+  line-height: 42px;
 
-  // color: #F2A23B;
+  text-transform: uppercase;
+
+  color: #00141b;
+}
+
+.projectInfo {
+  font-family: 'Inconsolata', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 50px;
+  line-height: 132.3%;
+  /* or 26px */
+  text-align: justify;
+
+  color: #00141b;
 }
 
 .projectImage {
-  height: 500px;
-  width: 755px;
-  background-color: black;
+  height: 670px;
+  width: 100%;
+  object-fit: cover;
+  grid-column: 2/5;
+  border-radius: 25px;
+  box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
   // margin-right: 80px;
 }
 
@@ -679,6 +668,8 @@ body {
   }
 
   img {
+    border-radius: 15px;
+    box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
     height: auto;
     width: 25vw;
     margin-bottom: 20px;
@@ -772,6 +763,8 @@ body {
   }
 
   img {
+    border-radius: 15px;
+    box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
     height: 600px;
     width: 550px;
     // background-color: black;
@@ -802,7 +795,9 @@ body {
   flex-direction: column;
 
   img {
-    width: 100%;
+    border-radius: 15px;
+    box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
+    width: 95%;
   }
 
   p {
@@ -820,16 +815,23 @@ body {
 }
 
 .D3Image {
-  height: 50%;
-  width: 50%;
+  // height: 50%;
+  width: 100%;
+  background-size: cover;
   background-color: black;
 }
 
-.D3ImageSquare {
-  height: 50%;
+.modalFix {
   width: 50%;
-  background-color: black;
+  margin-bottom: -10px;
 }
+
+// .D3ImageSquare {
+//   height: 100%;
+//   width: 50%;
+//   background-size: cover;
+//   background-color: black;
+// }
 
 .d3designPhotoContainer {
   margin: 0 auto;
@@ -854,21 +856,27 @@ body {
 
 // process button
 .processButton {
-  margin-top: 30px;
+  margin-top: 40px;
   width: 250px;
   height: 70px;
-  border: 2px solid #3387ff;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #ffffff;
+  border: 2px solid #00141b;
+  box-sizing: border-box;
+  border-radius: 145px;
 
   span {
-    font-family: 'Work Sans', sans-serif;
+    font-family: Work Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 31px;
+    /* identical to box height, or 172% */
     text-align: center;
+
+    color: #00141b;
 
     color: #3387ff;
   }
@@ -911,9 +919,16 @@ body {
   }
 
   p {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
     line-height: 32px;
+    /* or 200% */
+    margin-top: 40px;
+    color: #00141b;
+
+    opacity: 0.75;
   }
 }
 
@@ -928,6 +943,10 @@ body {
 .leftTagWithBg {
   width: 125px;
   padding: 15px;
+  background: #00141b;
+  border-radius: 57px;
+
+  text-align: center;
 }
 
 .leftTagContainer {
@@ -951,6 +970,8 @@ body {
   }
 
   img {
+    border-radius: 15px;
+    box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
     width: 100%;
   }
 
@@ -1041,6 +1062,8 @@ p {
   grid-column: 2/4;
 
   img {
+    border-radius: 15px;
+    // box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
     width: 100%;
   }
 
@@ -1069,6 +1092,8 @@ p {
   grid-column: 4/6;
 
   img {
+    border-radius: 15px;
+    // box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
     width: 100%;
   }
 
@@ -1097,6 +1122,8 @@ p {
   grid-column: 6/8;
 
   img {
+    border-radius: 15px;
+    // box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
     width: 100%;
   }
 
@@ -1165,6 +1192,8 @@ p {
 
 // screen too big 1800px
 @media screen and (min-width: 1800px) {
+
+
   .heroAbout {
     margin-left: 320px;
   }
@@ -1186,12 +1215,20 @@ p {
   }
 }
 
+@media screen and (max-width: 1500px) {
+
+  .resumeButton {
+
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 1200px) {
+
+
   .heroImageContainer {
     z-index: -30;
   }
-
-
 
   .meTitle {
     font-size: 46px;
@@ -1210,17 +1247,28 @@ p {
 @media screen and (max-width: 1000px) {
   .projectImage {
     height: 400px;
-    width: 600px;
+    // width: 600px;
+    grid-column: 2/8;
+  }
+
+  .projectTextContainer {
+    grid-column: 2/8;
+    margin: 0;
+  }
+
+  .homeTextContainer {
+    grid-column: 2/7;
+  }
+
+  .resumeButton {
+    margin-right: 0;
   }
 }
 
 @media screen and (max-width: 930px) {
-
   .pageTitle {
-
     font-size: 56px;
     line-height: 33px;
-
   }
 
   .heroImageContainer {
@@ -1408,22 +1456,22 @@ p {
 
 @media screen and (max-width: 650px) {
   .heroAbout {
-
     margin-left: 25px;
-
   }
 
   .projectImage {
     height: 250px;
-    width: 400px;
+    // width: 400px;
+    grid-column: 2/8;
+
   }
 
   .projectTextContainer {
-    transform: scale(.69);
+    grid-column: 2/8;
+    margin: 0;
   }
 
   .projectButtonContainer {
-
     margin: 0 auto;
     width: 400px;
   }

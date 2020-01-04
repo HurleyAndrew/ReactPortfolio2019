@@ -39,7 +39,11 @@ class ProjectNavigation extends React.Component {
     return elementArray
   }
   render() {
-    return <div className="projectNavAndPreview">{this.createElements()}</div>
+    return (
+      <div className="projectNavAndPreview" id="projects">
+        {this.createElements()}
+      </div>
+    )
   }
 }
 export default ProjectNavigation

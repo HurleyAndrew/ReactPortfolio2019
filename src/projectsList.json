@@ -5,8 +5,9 @@
       "date": "Fall 2019",
       "link": "/abcofsymbiosis/",
       "image": "abcofsymbiosis.jpg",
-      "color": "3556FF",
-      "linkType": "internal"
+      "color": "00141B",
+      "linkType": "internal",
+      "info": "A project where we were tasked with designing and printing an ABC related print piece for children. We decided on creating a card game centered around symbiotic relationships in nature and each member in the group was given letters to design."
     },
     {
       "id": 2,
@@ -14,8 +15,9 @@
       "date": "Summmer 2019",
       "link": "/wegmansweatherapplication/",
       "image": "wegmansweather.jpg",
-      "color": "3387FF",
-      "linkType": "internal"
+      "color": "00141B",
+      "linkType": "internal",
+      "info": "A weather management and monitoring application designed for Wegmans Food Markets to aid in informing store managers and other VIPS of potential hazardous weather conditions that could require planning and prep."
     },
     {
       "id": 3,
@@ -23,8 +25,9 @@
       "date": "Spring 2019",
       "link": "/demoreel/",
       "image": "demoreel.jpg",
-      "color": "A2528A",
-      "linkType": "internal"
+      "color": "00141B",
+      "linkType": "internal",
+      "info": "A reel dedicated to my favorite work produced during my career as a designer both from internships and school. "
     },
     {
       "id": 4,
@@ -32,8 +35,9 @@
       "date": "Ongoing",
       "link": "/d3design/",
       "image": "3ddesign.jpg",
-      "color": "FFAF39",
-      "linkType": "internal"
+      "color": "00141B",
+      "linkType": "internal",
+      "info": "Showcase of my 3D renderings and artworks created for class and just for fun."
     },
     {
       "id": 5,
@@ -41,8 +45,9 @@
       "date": "Fall 2018",
       "link": "http://newmediaclub.rit.edu/",
       "image": "newmediaclubsite.jpg",
-      "color": "213B9A",
-      "linkType": "external"
+      "color": "00141B",
+      "linkType": "external",
+      "info": "As the webmaster of Rochester Intitute of Technologies, New Media Club, I had the chance to redesign and redevelop the club site."
     },
     {
       "id": 6,
@@ -50,8 +55,9 @@
       "date": "Fall 2018",
       "link": "https://dansegliode.github.io/threepigs/",
       "image": "interactivestory.jpg",
-      "color": "9A218E",
-      "linkType": "external"
+      "color": "00141B",
+      "linkType": "external",
+      "info": "An interactive story book and game based on the Three Little Pigs."
     },
     {
       "id": 7,
@@ -59,8 +65,9 @@
       "date": "Spring 2019",
       "link": "https://www.behance.net/gallery/74068673/Chore-Management",
       "image": "choremanagement.jpg",
-      "color": "3F5165",
-      "linkType": "external"
+      "color": "00141B",
+      "linkType": "external",
+      "info": "A TV application for family or personal chore management. It is a new take on TV UI and UI in general using physically based renderings inplace of common flat UI design."
     },
     {
       "id": 8,
@@ -69,8 +76,9 @@
       "date": "Fall 2018",
       "link": "https://www.behance.net/gallery/74068671/Coin-Care",
       "image": "coincare.jpg",
-      "color": "219A59",
-      "linkType": "external"
+      "color": "00141B",
+      "linkType": "external",
+      "info": "Coin Care is an application that helps users manage their money by first managing their stresses around finances."
     }
   ]
 }

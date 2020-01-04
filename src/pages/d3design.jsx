@@ -7,16 +7,25 @@ import ProjectsAdvertisement from '../components/ProjectsAdvertisement'
 import { Link } from 'gatsby'
 import MetaTags from 'react-meta-tags'
 import Favicon from '../images/favicon.png'
+import ModalImage from 'react-modal-image'
 class D3design extends Component {
   createElements = () => {
     let elementArray = []
     for (let index = 0; index < 12; index++) {
       elementArray.push(
-        <img
-          src={require('./../images/' + D3Photos.Photos[index].link)}
-          alt={'./../images/' + D3Photos.Photos[index].link}
-          className="D3Image"
-        ></img>
+        <div className="modalFix">
+          <ModalImage
+            className="D3Image"
+            small={require('./../images/' + D3Photos.Photos[index].link)}
+            large={require('./../images/' + D3Photos.Photos[index].link)}
+            alt={D3Photos.Photos[index].alt}
+          />
+        </div>
+        // <img
+        //   src={require('./../images/' + D3Photos.Photos[index].link)}
+        //   alt={'./../images/' + D3Photos.Photos[index].link}
+        //   className="D3Image"
+        // ></img>
       )
     }
 
@@ -24,11 +33,19 @@ class D3design extends Component {
 
     for (let index = 12; index < 16; index++) {
       elementArray.push(
-        <img
-          src={require('./../images/' + D3Photos.Photos[index].link)}
-          alt={'./../images/' + D3Photos.Photos[index].link}
-          className="D3ImageSquare"
-        ></img>
+        // <img
+        //   src={require('./../images/' + D3Photos.Photos[index].link)}
+        //   alt={'./../images/' + D3Photos.Photos[index].link}
+        //   className="D3ImageSquare"
+        // ></img>
+        <div className="modalFix">
+          <ModalImage
+            className="D3Image"
+            small={require('./../images/' + D3Photos.Photos[index].link)}
+            large={require('./../images/' + D3Photos.Photos[index].link)}
+            alt={'./../images/' + D3Photos.Photos[index].alt}
+          />
+        </div>
       )
     }
 
