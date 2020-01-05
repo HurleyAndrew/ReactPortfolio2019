@@ -1051,12 +1051,14 @@ a:hover {
 .leftTag {
   color: white;
   grid-column: 2/3;
-  padding: 20px;
-  height: 15px;
+  padding: 15px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  height: 0px;
   width: max-content;
   background-color: black;
   // text-align: center;
-  line-height: 20px;
+  line-height: 2px;
   font-weight: bold;
   font-size: 16px;
 }
@@ -1437,11 +1439,13 @@ p {
   .leftTag {
     color: white;
     // grid-column: 2;
-    padding: 12px;
-    height: 10px;
+    padding: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    height: 0px;
     width: max-content;
     background-color: black;
-    line-height: 16px;
+    line-height: 5px;
     font-weight: bold;
     font-size: 12px;
     margin-bottom: 25px;
@@ -1487,6 +1491,11 @@ p {
     padding: 22px;
     height: 10px;
     // width: 180px;
+    padding: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    height: 0px;
+    width: max-content;
     width: max-content;
   }
 
