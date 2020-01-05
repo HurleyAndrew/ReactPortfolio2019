@@ -1545,4 +1545,29 @@ p {
     height: 2px;
     background-color: #3556ff;
   }
+  .homeButtons {
+    width: 350px;
+  }
+  .viewProjectsButton {
+    width: 200px;
+  }
+  .resumeButton {
+    width: 120px;
+  }
+  .homePara {
+    width: 400px;
+  }
+  .projectButton {
+    width: 175px;
+  }
+  .projectInfo {
+    text-align: left;
+  }
+}
+.backgroundDiv {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: #00141b;
+  top: 0px;
 }

@@ -48,6 +48,7 @@ export default class IndexPage extends Component {
         </MetaTags>
 
         <div className="App">
+          <div className="backgroundDiv"></div>
           <div className="wrapper">
             <div className="homeHeroContainer wegmansWrapper">
               <div className="mobiusHero"></div>
