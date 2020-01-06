@@ -1563,7 +1563,20 @@ p {
   .projectInfo {
     text-align: left;
   }
+  .leftTag {
+    line-height: 3px;
+  }
 }
+
+@media screen and (max-width: 450px) {
+  .homePara {
+    width: 300px;
+  }
+  .homeButtons {
+    width: 300px;
+  }
+}
+
 .backgroundDiv {
   height: 100vh;
   width: 100vw;
