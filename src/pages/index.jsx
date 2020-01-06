@@ -51,7 +51,7 @@ export default class IndexPage extends Component {
           <div className="backgroundDiv"></div>
           <div className="wrapper">
             <div className="homeHeroContainer wegmansWrapper">
-              <div className="mobiusHero"></div>
+              <div className="mobiusHero" loading="eager"></div>
 
               <div className="homeTextContainer">
                 <div className="heyDiv">Hey!</div>

@@ -92,6 +92,7 @@ export default class WegmansWeatherApplication extends Component {
                   <img
                     src={require('../images/wegmansImages/needs.jpg')}
                     alt="project"
+                    loading="lazy"
                   />
                 </div>
                 <div
@@ -133,6 +134,7 @@ export default class WegmansWeatherApplication extends Component {
                   <img
                     src={require('../images/wegmansImages/framework1.jpg')}
                     alt="project"
+                    loading="lazy"
                   />
                 </div>
                 <div
@@ -159,6 +161,7 @@ export default class WegmansWeatherApplication extends Component {
                   <img
                     src={require('../images/wegmansImages/framework2.jpg')}
                     alt="project"
+                    loading="lazy"
                   />
                 </div>
                 <div
@@ -186,6 +189,7 @@ export default class WegmansWeatherApplication extends Component {
                   <img
                     src={require('../images/wegmansImages/framework3.jpg')}
                     alt="project"
+                    loading="lazy"
                   />
                 </div>
                 <div
@@ -216,6 +220,7 @@ export default class WegmansWeatherApplication extends Component {
                   <img
                     src={require('../images/wegmansImages/siteMap.jpg')}
                     alt="project"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -247,6 +252,7 @@ export default class WegmansWeatherApplication extends Component {
                 <img
                   src={require('../images/wegmansImages/dashboardTri1.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -271,6 +277,7 @@ export default class WegmansWeatherApplication extends Component {
                 <img
                   src={require('../images/wegmansImages/dashboardTri2.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -293,6 +300,7 @@ export default class WegmansWeatherApplication extends Component {
                 <img
                   src={require('../images/wegmansImages/dashboardTri3.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -322,6 +330,7 @@ export default class WegmansWeatherApplication extends Component {
                 <img
                   src={require('../images/wegmansImages/dashboardTri4.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -345,6 +354,7 @@ export default class WegmansWeatherApplication extends Component {
                 <img
                   src={require('../images/wegmansImages/dashboardTri5.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -369,6 +379,7 @@ export default class WegmansWeatherApplication extends Component {
                 <img
                   src={require('../images/wegmansImages/dashboardTri6.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -398,6 +409,7 @@ export default class WegmansWeatherApplication extends Component {
                 <img
                   src={require('../images/wegmansImages/dashboardTri7.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -422,6 +434,7 @@ export default class WegmansWeatherApplication extends Component {
                 <img
                   src={require('../images/wegmansImages/dashboardTri8.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -471,6 +484,7 @@ export default class WegmansWeatherApplication extends Component {
                   <img
                     src={require('../images/advertisement/wegmansAd.jpg')}
                     alt="project"
+                    loading="lazy"
                     className=""
                   />
                   <p>ABC's of Symbiosis</p>
@@ -481,6 +495,7 @@ export default class WegmansWeatherApplication extends Component {
                   <img
                     src={require('../images/advertisement/d3designAd.jpg')}
                     alt="project"
+                    loading="lazy"
                     className=""
                   />
                   <p>3D Design</p>
@@ -491,6 +506,7 @@ export default class WegmansWeatherApplication extends Component {
                   <img
                     src={require('../images/advertisement/coincareAd.jpg')}
                     alt="project"
+                    loading="lazy"
                     className=""
                   />
                   <p>Coin Care</p>

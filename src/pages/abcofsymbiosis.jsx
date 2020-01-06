@@ -122,6 +122,7 @@ export default class Abcofsymbiosis extends Component {
                   <img
                     src={require('../images/symbiosisImages/symbiosis1.jpg')}
                     alt="project"
+                    loading="lazy"
                   />
                 </div>
                 <div
@@ -168,6 +169,7 @@ export default class Abcofsymbiosis extends Component {
                   <img
                     src={require('../images/symbiosisImages/symbiosis2.jpg')}
                     alt="project"
+                    loading="lazy"
                   />
                 </div>
                 <div
@@ -211,6 +213,7 @@ export default class Abcofsymbiosis extends Component {
                 <img
                   src={require('../images/symbiosisImages/symbiosis3.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -235,6 +238,7 @@ export default class Abcofsymbiosis extends Component {
                 <img
                   src={require('../images/symbiosisImages/symbiosis4.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -259,6 +263,7 @@ export default class Abcofsymbiosis extends Component {
                 <img
                   src={require('../images/symbiosisImages/symbiosis5.jpg')}
                   alt="project"
+                  loading="lazy"
                 />
                 <h1
                   style={{
@@ -293,6 +298,8 @@ export default class Abcofsymbiosis extends Component {
                   <img
                     src={require('../images/symbiosisImages/symbiosis6.jpg')}
                     alt="project"
+                    loading="lazy"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -305,7 +312,13 @@ export default class Abcofsymbiosis extends Component {
             </div>
 
             <div className="wegmansFullWidth weatherAnimationContainer">
-              <video width="320" height="240" controls className="wegmansDemo">
+              <video
+                width="320"
+                height="240"
+                controls
+                className="wegmansDemo"
+                loading="lazy"
+              >
                 <source
                   src={require('../images/symbiosisImages/symbiosisDemo.mp4')}
                   type="video/mp4"
@@ -328,6 +341,8 @@ export default class Abcofsymbiosis extends Component {
                   <img
                     src={require('../images/symbiosisImages/symbiosis7.jpg')}
                     alt="project"
+                    loading="lazy"
+                    loading="lazy"
                   />
                 </div>
                 <div
@@ -365,6 +380,7 @@ export default class Abcofsymbiosis extends Component {
                   <img
                     src={require('../images/advertisement/choreAd.jpg')}
                     alt="project"
+                    loading="lazy"
                     className=""
                   />
                   <p>Chore Management</p>
@@ -375,6 +391,7 @@ export default class Abcofsymbiosis extends Component {
                   <img
                     src={require('../images/advertisement/d3designAd.jpg')}
                     alt="project"
+                    loading="lazy"
                     className=""
                   />
                   <p>3D Design</p>
@@ -385,6 +402,7 @@ export default class Abcofsymbiosis extends Component {
                   <img
                     src={require('../images/advertisement/coincareAd.jpg')}
                     alt="project"
+                    loading="lazy"
                     className=""
                   />
                   <p>Coin Care</p>

@@ -35,6 +35,7 @@ class ProjectPreview extends React.Component {
         <div className="projectContainer wegmansWrapper">
           <div className="projectImage">
             <img
+              loading="lazy"
               className="projectImage"
               src={require('./../images/' +
                 projectsList.Projects[this.props.count].image)}
