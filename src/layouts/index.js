@@ -5,9 +5,6 @@ import Helmet from 'react-helmet'
 
 import Favicon from '../images/favicon.png'
 import Social from '../images/social.jpg'
-import favicon16 from '../images/favicon16.png'
-import favicon32 from '../images/favicon32.png'
-import favicon64 from '../images/favicon64.png'
 
 import './index.scss'
 console.log(Favicon)

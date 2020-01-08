@@ -5,44 +5,10 @@ import ProjectNavigation from './../components/ProjectNavigation'
 import MetaTags from 'react-meta-tags'
 import Favicon from '../images/favicon.png'
 import Social from '../images/social.jpg'
+import Link from 'gatsby-link'
 
 export default class IndexPage extends Component {
-  _isMounted = false
-
-  constructor(props) {
-    super(props)
-    this.state = {
-      randomWord: 'Woodworker',
-    }
-  }
-
-  componentDidMount() {
-    this._isMounted = true
-    this.setState({
-      randomWord: 'Woodworker',
-    })
-  }
-
-  componentWillUnmount() {
-    this._isMounted = false
-  }
   render() {
-    let randomWork = [
-      'Woodworker',
-      'Electrician',
-      'Maker',
-      'Dog Lover',
-      'Hiker',
-      'Photographer',
-    ]
-    let { randomWord } = this.state
-
-    setTimeout(() => {
-      this.setState({
-        randomWord: randomWork[Math.floor(Math.random() * randomWork.length)],
-      })
-    }, 2500)
-
     return (
       <div>
         <MetaTags>
@@ -95,14 +61,16 @@ export default class IndexPage extends Component {
               <div className="homeTextContainer">
                 <div className="heyDiv">Hey!</div>
                 <div className="homePara">
-                  My name is <b>Andrew Hurley</b> and I am a{' '}
-                  <b>Product Designer</b> who loves designing <b>intuitive</b>{' '}
-                  and <b>unique experiences</b> for users.
+                  My name is{' '}
+                  <Link to={'/about'}>
+                    <b className="zigzag">Andrew Hurley</b>
+                  </Link>{' '}
+                  and I am a <b>Product Designer</b> who loves designing{' '}
+                  <b>intuitive</b> and <b>unique experiences</b> for users.
                 </div>
                 <div className="homePara">
-                  My free time can consist of activities such as{' '}
-                  <b>woodworking</b>,<b>rendering</b>, <b>hiking</b>, and{' '}
-                  <b>dog petting</b>.
+                  My free time consists of activities such as <b>woodworking</b>
+                  , <b>rendering</b>, <b>hiking</b>, and <b>dog petting</b>.
                 </div>
                 <div className="homeButtons">
                   <a href="#projects" className="Button viewProjectsButton">

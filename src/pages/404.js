@@ -1,8 +1,14 @@
 import React from 'react'
+import '../layouts/index.js'
+import '../layouts/metaData.js'
+import Navigation from '../components/Navigation'
 
 const NotFoundPage = () => (
-  <div className="container">
-    <h1>NOT FOUND</h1>
+  <div className="App">
+    <div className="wrapper">
+      <Navigation className="navComponent " color={'#A2528A'} />
+      <p className="errorPageText">oopsies... the page could not be found!</p>
+    </div>
   </div>
 )
 

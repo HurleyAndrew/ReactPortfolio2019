@@ -7,6 +7,14 @@ $padding-amount: 100px;
   text-rendering: optimizeLegibility;
 }
 
+.errorPageText {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 24px;
+  font-family: 'Work Sans', sans-serif;
+}
+
 html {
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
@@ -26,7 +34,22 @@ body {
   // height: 100vh;
   // width: 100vw;
 }
-
+.zigzag {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  font-size: 20px;
+}
+.zigzag:hover {
+  cursor: pointer;
+  color: #f6830f;
+}
+.zigzag:hover {
+  cursor: pointer;
+  color: #f6830f;
+  text-decoration-color: #f6830f;
+}
+b {
+}
 .homeTop {
   //   max-width: 2200px;
   display: grid;
@@ -308,10 +331,10 @@ body {
 }
 
 .navLink {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 23px;
   color: white;
   /* margin: 0 40px; */
@@ -320,7 +343,10 @@ body {
   text-align: right;
   display: block;
 }
-
+.navLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 .navProjectLink {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -386,6 +412,13 @@ body {
 
 .navItemTwo {
   grid-column: 3;
+  align-self: center;
+  color: black;
+  text-align: left;
+}
+
+.navItemThree {
+  grid-column: 4;
   align-self: center;
   color: black;
   text-align: left;
@@ -1217,6 +1250,39 @@ p {
   background-color: black;
 }
 
+.backgroundDiv {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: #00141b;
+  top: 0px;
+}
+
+.aboutContainer {
+  grid-column: 5/8;
+}
+
+.aboutImageContainer {
+  margin-top: 100px;
+  width: 492px;
+  height: 654px;
+
+  grid-column: 2/4;
+  z-index: 5;
+  background: url('./../images/profilePhoto.jpg');
+  box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
+  border-radius: 25px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.darkText {
+  color: #00141b;
+}
+.whiteBg {
+  background-color: #ffffff;
+}
+
 // screen too big 1800px
 @media screen and (min-width: 1800px) {
   .heroAbout {
@@ -1245,7 +1311,13 @@ p {
     margin-right: 0;
   }
 }
-
+@media screen and (max-width: 1400px) {
+  .aboutImageContainer {
+    margin-top: 200px;
+    height: 474px;
+    width: 357px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .heroImageContainer {
     z-index: -30;
@@ -1287,6 +1359,12 @@ p {
 }
 
 @media screen and (max-width: 930px) {
+  .aboutImageContainer {
+    margin-top: 50px;
+  }
+  .aboutContainer {
+    margin-top: -50px;
+  }
   .pageTitle {
     font-size: 56px;
     line-height: 33px;
@@ -1507,6 +1585,9 @@ p {
 }
 
 @media screen and (max-width: 650px) {
+  .aboutContainer {
+    margin-top: 0px;
+  }
   .heroAbout {
     margin-left: 25px;
   }
@@ -1575,12 +1656,4 @@ p {
   .homeButtons {
     width: 300px;
   }
-}
-
-.backgroundDiv {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  background-color: #00141b;
-  top: 0px;
 }

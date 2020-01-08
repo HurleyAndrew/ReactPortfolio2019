@@ -31,6 +31,10 @@ class Navigation extends React.Component {
         >
           Resume
         </a>
+
+        <Link className="navLink navItemThree" to={'/about'}>
+          About
+        </Link>
       </div>
     )
   }

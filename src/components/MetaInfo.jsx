@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Favicon from '../images/favicon.png'
 import Social from '../images/social.jpg'
 class MetaInfo extends React.Component {
