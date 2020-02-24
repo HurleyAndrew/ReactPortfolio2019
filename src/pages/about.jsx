@@ -19,20 +19,24 @@ export default class About extends Component {
               <div className="homeTextContainer aboutContainer darkText">
                 <div className="heyDiv darkText">Hey!</div>
                 <div className="homePara">
-                  My name is <b>Andrew Hurley</b> and I am a{' '}
-                  <b>Product Designer</b> who loves designing <b>intuitive</b>{' '}
-                  and <b>unique experiences</b> for users.
+                  Hey! My name is Andrew Hurley and I am a{' '}
+                  <b>Product and Interaction Designer</b> who loves building
+                  engaging and unique experiences for users.
                 </div>
                 <div className="homePara">
-                  I have spent the past 4 years at{' '}
-                  <b>Rochester Institute of Technology</b> studying New Media
-                  Design with an immersion in Communications and will be
-                  graduating in <b>May 2020</b>.
+                  Creative and front end development, 3D design, electronics
+                  engineering and woodworking are a few of the hobbies I really
+                  enjoy when I want to create.{' '}
                 </div>
                 <div className="homePara">
-                  My free time can consist of activities such as{' '}
-                  <b>woodworking</b>,<b>rendering</b>, <b>hiking</b>, and{' '}
-                  <b>dog petting</b>.
+                  But when I don’t want to make anything I love petting dogs,
+                  hiking, and skiing!
+                </div>
+                <div className="homePara">
+                  I love trying to solve any puzzles that get thrown at me or
+                  that I come up with myself with the various skillset I have
+                  acquired over my years in the New Media Design program at
+                  Rochester Institute of Technology.
                 </div>
               </div>
             </div>
