@@ -42,7 +42,14 @@ export default class ThreeLittlePigs extends Component {
             </div>
           </div>
 
-          <video className="heroTopVideoSource" playsInline autoPlay muted loop>
+          <video
+            className="heroTopVideoSource"
+            playsInline
+            autoPlay
+            muted
+            loop
+            poster={require('./../images/bsidePhotos/posters/threelittlepigs.jpg')}
+          >
             <source src={heroVideo} type="video/mp4" />
           </video>
 
