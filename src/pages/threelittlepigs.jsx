@@ -221,9 +221,6 @@ export default class ThreeLittlePigs extends Component {
                 </p>
               </div>
 
-              <div className="leftTagContainer leftTagContainerFix leftTagContainer leftTagContainerFixFix wegmansFullWidth">
-                <div className="leftTag viewmoreProjects">END PRODUCT</div>
-              </div>
               <div className="endproductContainer wegmansFullWidth">
                 <a
                   href="https://dansegliode.github.io/threepigs/"

@@ -16,7 +16,7 @@ export default class About extends Component {
             <Navigation className="navComponent " color={'#A2528A'} />
             <div className="homeHeroContainer wegmansWrapper whiteBg">
               <div className="aboutImageContainer"></div>
-              <div className="homeTextContainer aboutContainer darkText">
+              <div className="homeTextContainer aboutContainer darkText margin-bottom">
                 <div className="heyDiv darkText">Hey!</div>
                 <div className="homePara">
                   Hey! My name is Andrew Hurley and I am a{' '}
@@ -37,6 +37,16 @@ export default class About extends Component {
                   that I come up with myself with the various skillset I have
                   acquired over my years in the New Media Design program at
                   Rochester Institute of Technology.
+                </div>
+                <div className="homePara">
+                  <b> Shoot me a message!</b>
+                  <br></br>
+                  <a
+                    href="mailto:hurleymandrew@gmail.com"
+                    className="jakefrank"
+                  >
+                    hurleymandrew@gmail.com
+                  </a>
                 </div>
               </div>
             </div>

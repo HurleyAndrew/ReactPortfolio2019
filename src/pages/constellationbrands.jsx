@@ -223,10 +223,6 @@ export default class ConstellationBrands extends Component {
             </div>
 
             <div className="leftTagContainer leftTagContainerFix wegmansFullWidth">
-              <div className="leftTagContainer leftTagContainerFix leftTagContainer leftTagContainerFixFix wegmansFullWidth">
-                <div className="leftTag  viewmoreProjects">PROTOTYPE</div>
-              </div>
-
               <div className="wegmansFullWidth margin-bottom weatherAnimationContainer">
                 <video
                   width="320"
