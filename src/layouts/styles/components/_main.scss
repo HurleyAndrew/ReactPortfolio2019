@@ -1049,6 +1049,7 @@ a:hover {
 }
 
 .rightDescriptionWhite {
+  margin-top: 20px;
   p {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -1124,6 +1125,7 @@ a:hover {
   line-height: 2px;
   font-weight: bold;
   font-size: 16px;
+  margin-top: 20px;
 }
 
 p {
@@ -1395,6 +1397,12 @@ p {
 }
 
 @media screen and (max-width: 930px) {
+  .leftTag {
+    padding: 0px;
+  }
+  .leftTagWithBg {
+    padding: 14px;
+  }
   .aboutImageContainer {
     margin-top: 50px;
   }

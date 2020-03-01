@@ -78,7 +78,7 @@ export default class BSide extends Component {
               </div>
             </div>
 
-            <div className="bsideProjects">
+            <div className="bsideProjects margin-bottom">
               <div className="rail">
                 <Link to={'/threelittlepigs'}>
                   <div className="squareProject threepigs">
@@ -101,7 +101,7 @@ export default class BSide extends Component {
                   </div>
                 </Link>
                 <Link to={'/constellationbrands'}>
-                  <div className="rectangleProject arexperience">
+                  <div className="squareProject arexperience">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">
                         Node Programming, Spark AR

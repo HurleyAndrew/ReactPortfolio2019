@@ -260,9 +260,6 @@ export default class NewMediaClubSite extends Component {
               </div>
             </div>
 
-            <div className="leftTagContainer leftTagContainerFix leftTagContainer leftTagContainerFixFix wegmansFullWidth">
-              <div className="leftTag  viewmoreProjects">END PRODUCT</div>
-            </div>
             <div className="endproductContainer wegmansFullWidth">
               <a
                 href="http://newmediaclub.rit.edu/"
