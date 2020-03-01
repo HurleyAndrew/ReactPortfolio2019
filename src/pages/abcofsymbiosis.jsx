@@ -59,16 +59,15 @@ export default class Abcofsymbiosis extends Component {
                 symbiotic relationship is one where both creatures benefit from
                 one another.
               </p>
-
-              <div className="processButton">
-                <a
-                  href="http://students.miguelcardona.com/abcs-2019/symbiosis/andrew_hurley/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <a
+                href="http://students.miguelcardona.com/abcs-2019/symbiosis/andrew_hurley/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="processButton">
                   <span>Process Deck</span>
-                </a>
-              </div>
+                </div>
+              </a>
             </div>
             <img
               className="wegmanHeroImage"
