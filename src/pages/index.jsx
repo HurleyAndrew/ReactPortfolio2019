@@ -53,6 +53,17 @@ export default class IndexPage extends Component {
         </MetaTags>
 
         <div className="App">
+          <div className="sidesContainer">
+            <div className="sides">
+              <Link to={'/'}>
+                <div>A-Side</div>
+              </Link>{' '}
+              <div className="sideLine"></div>{' '}
+              <Link to={'/bside'}>
+                <div>B-Side</div>
+              </Link>
+            </div>
+          </div>
           <div className="backgroundDiv"></div>
           <div className="wrapper">
             <div className="homeHeroContainer wegmansWrapper">

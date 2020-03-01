@@ -20,7 +20,7 @@ class Navigation extends React.Component {
     return (
       <div className="wegmansWrapper navContainer">
         <Link className="navLink navItemOne" to={'/#projects'}>
-          Work
+          Home
         </Link>
 
         <a
