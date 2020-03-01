@@ -90,12 +90,21 @@ export default class NewMediaClubSite extends Component {
                 <p>
                   The original New Media Club (NMC) site was a single page
                   application built on Gatsby by the previous webmaster Jacob
-                  Frank (jacobdfrank.com). When I got added as the new webmaster
-                  I was asked to expand the site to include features such as
-                  mentor and alumni galleries as well as a resources page to
-                  help new students get started in design. To do this I had to
-                  scrap a lot of the original code and implement new features
-                  like JSON populatino for events and profile cards.
+                  Frank (
+                  <a
+                    href="https://www.jacobdfrank.com/"
+                    rel="noreferer noopener"
+                    target="_blank"
+                    className="jakefrank"
+                  >
+                    jacobdfrank.com
+                  </a>
+                  ). When I got added as the new webmaster I was asked to expand
+                  the site to include features such as mentor and alumni
+                  galleries as well as a resources page to help new students get
+                  started in design. To do this I had to scrap a lot of the
+                  original code and implement new features like JSON populatino
+                  for events and profile cards.
                 </p>
               </div>
             </div>
@@ -220,29 +229,50 @@ export default class NewMediaClubSite extends Component {
                   not loading unseen images.
                 </p>
               </div>
+
+              <div className="rightDescriptionWhite">
+                <div className="rightDescriptionImage">
+                  <img
+                    src={require('./../images/bsidePhotos/newmediaclub3.jpg')}
+                    alt="project"
+                    loading="lazy"
+                  />
+                </div>
+                <div
+                  className="rightDescriptionTitle"
+                  style={{
+                    color: color,
+                  }}
+                >
+                  Sorting
+                </div>
+                <p
+                  style={{
+                    color: color,
+                  }}
+                >
+                  Another challenge was when I had to come up with a way to sort
+                  everyone into their own design categories. There were multiple
+                  layers to the sort that was, are they an alumni or a mentor
+                  and do they fit the selected filter option. Luckily I was able
+                  to use the titles in the JSON document to sort them.
+                </p>
+              </div>
             </div>
 
-            <div className="leftTagContainer leftTagContainerFix wegmansFullWidth">
-              <div
-                className="leftTag "
-                style={{
-                  backgroundColor: color,
-                }}
+            <div className="leftTagContainer leftTagContainerFix leftTagContainer leftTagContainerFixFix wegmansFullWidth">
+              <div className="leftTag  viewmoreProjects">END PRODUCT</div>
+            </div>
+            <div className="endproductContainer wegmansFullWidth">
+              <a
+                href="http://newmediaclub.rit.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                END PRODUCT
-              </div>
-
-              <div className="endproductContainer wegmansFullWidth">
-                <a
-                  href="http://newmediaclub.rit.edu/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="processsidebButton">
-                    <span>CHECK IT OUT!</span>
-                  </div>
-                </a>
-              </div>
+                <div className="processsidebButton">
+                  <span>CHECK IT OUT!</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
