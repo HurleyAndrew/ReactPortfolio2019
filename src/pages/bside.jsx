@@ -70,10 +70,10 @@ export default class BSide extends Component {
               <div className="wegmansHero bsideheroMargin">
                 <h1>Welcome to the B-Side</h1>
                 <p>
-                  Here you get to see the more engineering oriented side of me.
-                  Where I get to put my programming and manufacturing skills to
-                  work to create things that help push my designs into reality
-                  or just let me have some fun and learn.
+                  This is where the more programming and engineering oriented
+                  side of me lives. Part hobby I have been able to implement my
+                  skills into projects both personal and for school, helping
+                  them go from screen to reality.
                 </p>
               </div>
             </div>
