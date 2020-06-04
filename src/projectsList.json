@@ -1,6 +1,15 @@
 {
   "Projects": [{
       "id": 1,
+      "title": "Oasis Capstone",
+      "date": "Spring 2020",
+      "link": "https://oasis.cad.rit.edu/",
+      "image": "oasis.jpg",
+      "color": "00141B",
+      "linkType": "external",
+      "info": "My final New Media Design project centered around the phrase \"Do Good\". We created an interactive meditation experience where users get to follow along with a breathing exercise and see how their breathing effects some generated art."
+    }, {
+      "id": 2,
       "title": "ABC's of Symbiosis",
       "date": "Fall 2019",
       "link": "/abcofsymbiosis/",
@@ -10,7 +19,7 @@
       "info": "A project where we were tasked with designing and printing an ABC related print piece for children. We decided on creating a card game centered around symbiotic relationships in nature and each member in the group was given letters to design."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Wegmans Weather Application",
       "date": "Summmer 2019",
       "link": "/wegmansweatherapplication/",
@@ -20,7 +29,7 @@
       "info": "A weather management and monitoring application designed for Wegmans Food Markets to aid in informing store managers and other VIPS of potentially hazardous weather conditions that could require planning and prep."
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Demo Reel",
       "date": "Spring 2019",
       "link": "/demoreel/",
@@ -30,7 +39,7 @@
       "info": "A reel dedicated to my favorite work produced during my career as a designer both from internships and school. "
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "3D Design",
       "date": "Ongoing",
       "link": "/d3design/",
@@ -40,7 +49,7 @@
       "info": "Showcase of my 3D renderings and artworks created for class and just for fun."
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Chore Management",
       "date": "Spring 2019",
       "link": "https://www.behance.net/gallery/74068673/Chore-Management",
@@ -50,7 +59,7 @@
       "info": "A TV application for family or personal chore management. It is a new take on TV UI and UI in general using physically based renderings inplace of common flat UI design."
     },
     {
-      "id": 6,
+      "id": 7,
 
       "title": "Coin Care",
       "date": "Fall 2018",
