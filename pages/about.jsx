@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import Navigation from "../components/Navigation";
-// import MetaTags from "react-meta-tags";
+import Head from "next/head";
+
 export default class About extends Component {
   render() {
     return (
       <div>
-        {/* <MetaTags>
+        <Head>
           <title>About</title>
-        </MetaTags> */}
+        </Head>
 
         <div className="App">
           <div className="wrapper">
