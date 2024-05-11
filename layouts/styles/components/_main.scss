@@ -3,6 +3,10 @@ $padding-amount: 100px;
 * {
   text-rendering: optimizeLegibility;
 }
+a {
+  display: block;
+  width: fit-content;
+}
 
 .errorPageText {
   width: 100%;
@@ -27,10 +31,6 @@ body {
   background-color: white;
 }
 
-.App {
-  // height: 100vh;
-  // width: 100vw;
-}
 .zigzag {
   text-decoration-line: underline;
   text-decoration-style: wavy;
@@ -45,12 +45,15 @@ body {
   color: #f6830f;
   text-decoration-color: #f6830f;
 }
-
+.linkDisplayReset {
+  display: unset;
+  font-size: 16px;
+}
 .sidesContainer {
   position: absolute;
   margin: 0 auto;
-
-  left: calc(50% - 100px);
+  width: 100%;
+  // left: calc(50% - 100px);
   z-index: 10;
 }
 .sides {
@@ -76,6 +79,13 @@ body {
   margin-right: 15px;
   padding: 0px;
 }
+.backgroundDiv {
+  height: 50vh;
+  width: 100vw;
+  position: absolute;
+  background-color: #00141b;
+  top: 0px;
+}
 
 .homeTop {
   //   max-width: 2200px;
@@ -95,109 +105,12 @@ body {
   z-index: -2;
 }
 
-.wrapper {
-  // display: flex;
-  // justify-content: flex-start;
-  // vertical-align: top;
-  // flex-direction: column;
-}
-
-// Hero Image
-.bounce-1 {
-  animation-name: bounce-1;
-  animation-timing-function: ease-in-out;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-.bounce-2 {
-  animation-name: bounce-2;
-  animation-timing-function: ease-in-out;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-}
-
-.bounce-3 {
-  animation-name: bounce-3;
-  animation-timing-function: ease-in-out;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-}
-
-.bounce-4 {
-  animation-name: bounce-4;
-  animation-timing-function: ease-in-out;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes bounce-1 {
-  0% {
-    transform: translateY(0px);
-    transform: translateX(0px);
-  }
-
-  50% {
-    transform: translateY(65px);
-    transform: translateX(45px);
-  }
-
-  100% {
-    transform: translateY(0px);
-    transform: translateX(0px);
-  }
-}
-
-@keyframes bounce-2 {
-  0% {
-    transform: translateY(-10px);
-    transform: translateX(-10px);
-  }
-
-  50% {
-    transform: translateY(0px);
-    transform: translateX(0px);
-  }
-
-  100% {
-    transform: translateY(-10px);
-    transform: translateX(-10px);
-  }
-}
-
-@keyframes bounce-3 {
-  0% {
-    transform: translateY(-10px);
-    transform: translateX(10px);
-  }
-
-  50% {
-    transform: translateY(0px);
-    transform: translateX(-0px);
-  }
-
-  100% {
-    transform: translateY(-10px);
-    transform: translateX(10px);
-  }
-}
-
-@keyframes bounce-4 {
-  0% {
-    transform: translateY(0px);
-    transform: translateX(10px);
-  }
-
-  50% {
-    transform: translateY(0px);
-    transform: translateX(-0px);
-  }
-
-  100% {
-    transform: translateY(0px);
-    transform: translateX(10px);
-  }
-}
+// .wrapper {
+// display: flex;
+// justify-content: flex-start;
+// vertical-align: top;
+// flex-direction: column;
+// }
 
 .mobiusHero {
   position: absolute;
@@ -206,12 +119,12 @@ body {
   background-size: contain;
   top: 0;
   right: 0;
-  height: 100vh;
-  width: 70%;
+  height: 50vh;
+  width: 50%;
 }
 
 .homeHeroContainer {
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   background-color: #00141b;
 }
@@ -231,7 +144,6 @@ body {
   font-size: 36px;
   line-height: 34px;
   /* identical to box height, or 94% */
-
   color: #ffffff;
 }
 
@@ -239,7 +151,9 @@ body {
   display: flex;
   flex-direction: row;
 }
-
+.homeButtons a {
+  margin-right: 20px;
+}
 .Button {
   font-family: "Work Sans";
   font-style: normal;
@@ -271,16 +185,16 @@ body {
 .resumeButton {
   border: 1px solid #ffffff;
   color: #ffffff;
-  margin-left: 50px;
-  margin-right: 200px;
-  width: 65%;
+  // margin-left: 50px;
+  // margin-right: 200px;
+  width: 45%;
   // background-color: #00141b;
 }
 
 .projectButton {
   color: #ffffff;
   background-color: #00141b;
-  margin-top: 50px;
+  margin-top: 32px;
   width: 40%;
 }
 
@@ -369,6 +283,9 @@ body {
   /* position: relative; */
   text-align: right;
   display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: max-content;
 }
 .navLink:hover {
   cursor: pointer;
@@ -412,6 +329,8 @@ body {
 
 .navContainer {
   height: 88px;
+  gap: 20px;
+  z-index: 20;
 }
 
 .navLogo {
@@ -446,6 +365,12 @@ body {
 
 .navItemThree {
   grid-column: 4;
+  align-self: center;
+  color: black;
+  text-align: left;
+}
+.navItemFour {
+  grid-column: 5;
   align-self: center;
   color: black;
   text-align: left;
@@ -555,16 +480,16 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  margin-top: 42px;
+  margin-top: 22px;
   line-height: 34px;
   /* or 26px */
-  text-align: justify;
+  // text-align: justify;
 
   color: #00141b;
 }
 
 .projectImage {
-  height: 670px;
+  height: 500px;
   width: 100%;
   object-fit: cover;
   grid-column: 2/5;
@@ -587,16 +512,6 @@ body {
   width: 85%;
   margin-top: 120px;
 }
-
-b {
-  // font-size: 20px;
-  // transition: 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-// b:hover {
-//   color: #F6830F;
-
-// }
 
 a:hover {
   cursor: default;
@@ -978,11 +893,11 @@ a:hover {
 
 // Wegmans Page
 .wegmansWrapper {
-  max-width: 2200px;
+  max-width: 5200px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   /* grid-template-rows: 100vh auto; */
-  grid-column-gap: 48px;
+  // grid-column-gap: 48px;
   margin: 0 auto;
   grid-row-gap: 48px;
 }
@@ -1011,7 +926,7 @@ a:hover {
     font-size: 16px;
     line-height: 32px;
     /* or 200% */
-    margin-top: 40px;
+    margin-top: 20px;
     color: #00141b;
 
     opacity: 0.75;
@@ -1021,8 +936,8 @@ a:hover {
 .wegmanHeroImage {
   grid-column: 5/8;
   align-self: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  // margin-top: 100px;
+  // margin-bottom: 100px;
   width: 100%;
 }
 
@@ -1040,7 +955,7 @@ a:hover {
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: auto;
   grid-column-gap: 48px;
-  grid-row-gap: 48px;
+  grid-row-gap: 18px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -1100,7 +1015,7 @@ a:hover {
   p {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: rgba(255, 255, 255, 0.817);
     font-size: 16px;
     line-height: 30px;
   }
@@ -1279,23 +1194,17 @@ p {
   background-color: black;
 }
 
-.backgroundDiv {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  background-color: #00141b;
-  top: 0px;
-}
-
 .aboutContainer {
-  grid-column: 5/8;
+  margin-top: 50px;
+  grid-column: 4/8;
 }
 
 .aboutImageContainer {
-  margin-top: 100px;
-  width: 492px;
-  height: 654px;
-
+  margin-top: 50px;
+  // margin-bottom: 20px;
+  margin-right: 40px;
+  width: 450px;
+  height: 450px;
   grid-column: 2/4;
   z-index: 5;
   background: url("/images/profilePhoto.jpg");
@@ -1303,6 +1212,20 @@ p {
   border-radius: 25px;
   background-color: white;
   background-size: contain;
+  background-repeat: no-repeat;
+}
+.aboutZukoImageContainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: 420px;
+  left: 170px;
+  z-index: 5;
+  background: url("/images/zuko-dog.jpg");
+  box-shadow: 3px 2px 24px rgba(0, 20, 27, 0.14);
+  border-radius: 25px;
+  background-color: white;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .darkText {
@@ -1347,11 +1270,11 @@ p {
   }
 }
 @media screen and (max-width: 1400px) {
-  .aboutImageContainer {
-    margin-top: 200px;
-    height: 474px;
-    width: 357px;
-  }
+  // .aboutImageContainer {
+  //   margin-top: 50px;
+  //   height: 400px;
+  //   width: 400px;
+  // }
 }
 @media screen and (max-width: 1200px) {
   .heroImageContainer {
@@ -1378,7 +1301,13 @@ p {
     // width: 600px;
     grid-column: 2/8;
   }
-
+  .aboutZukoImageContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 50px;
+    left: 340px;
+  }
   .projectTextContainer {
     grid-column: 2/8;
     margin: 0;
@@ -1387,7 +1316,9 @@ p {
   .homeTextContainer {
     grid-column: 2/7;
   }
-
+  .aboutContainer {
+    margin-top: 0px;
+  }
   .resumeButton {
     margin-right: 0;
   }
@@ -1403,9 +1334,7 @@ p {
   .aboutImageContainer {
     margin-top: 50px;
   }
-  .aboutContainer {
-    margin-top: -50px;
-  }
+
   .pageTitle {
     font-size: 56px;
     line-height: 33px;
@@ -1425,30 +1354,30 @@ p {
 
   .wegmansTriItemFirst p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 24px;
   }
 
   .wegmansTriItemSecond p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 24px;
   }
 
   .wegmansTriItemThird p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 24px;
   }
 
   .rightDescriptionWhite {
     p {
       font-size: 16px;
-      line-height: 20px;
+      line-height: 26px;
     }
   }
 
   .rightDescription {
     p {
       font-size: 16px;
-      line-height: 20px;
+      line-height: 26px;
     }
   }
 
@@ -1626,9 +1555,6 @@ p {
 }
 
 @media screen and (max-width: 650px) {
-  .aboutContainer {
-    margin-top: 0px;
-  }
   .heroAbout {
     margin-left: 25px;
   }
@@ -1701,17 +1627,18 @@ p {
 
 // b-side
 .bsideheroMargin {
-  margin-top: calc(100vh / 3);
+  margin-top: 75px;
   z-index: 10;
 }
 .bsideProjects {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  max-width: 1600px;
+  // max-width: 1600px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 75px;
   justify-content: center;
+  margin-left: 20px;
 }
 .rail {
   // background-color: gray;
@@ -1719,6 +1646,13 @@ p {
   flex-direction: column;
   width: 50%;
   // align-items: center;
+}
+.b-rail {
+  // background-color: gray;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 .squareProject {
@@ -1735,46 +1669,63 @@ p {
   cursor: pointer;
 }
 .rectangleProject {
-  margin-top: 15px;
-  border-radius: 25px;
+  margin-top: 30px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
-  height: 1615px;
-  width: 98%;
-
+  height: 400px;
+  width: 80%;
+  max-width: 1000px;
+  transform: scale(1);
+  transition: transform 120ms ease-in-out;
   // background-color: red;
 }
 .rectangleProject:hover {
+  transition: transform 120ms ease-in-out;
+  transform: scale(1.01);
   cursor: pointer;
 }
 .sidebprojecttextContainer {
-  margin: 0 auto;
+  // margin: 0 auto;
+  position: absolute;
+  top: 20px;
+  // left: 20px;
+  padding: 20px;
+  padding-left: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 0, 0, 0.5) 30%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 0.95) 100%
+  );
+  border-radius: 0px 10px 10px 0px;
 }
 
 .sidebprojectTags {
   font-family: "Work Sans";
   font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
+  font-weight: normal;
+  font-size: 20px;
   line-height: 42px;
-  text-align: center;
+  text-align: left;
 
   color: #ffffff;
 }
 
 .sidebprojectTitle {
-  margin-top: 12px;
+  // margin-top: 12px;
   font-family: "Work Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 28px;
+  line-height: 36px;
   /* identical to box height */
 
-  padding-left: 20px;
-  padding-right: 20px;
+  // padding-left: 20px;
+  // padding-right: 20px;
 
-  text-align: center;
+  text-align: left;
 
   color: #ffffff;
 }
@@ -1790,25 +1741,44 @@ p {
 // side b home photos
 .woodworking {
   background-size: cover;
-  background-image: url("/images/bsidePhotos/woodworking.jpg");
+  background-image: url("/images/bsidePhotos/previews/everythinginbetween-prev.jpg");
 }
 .nmcsite {
   background-size: cover;
-  background-image: url("/images/bsidePhotos/nmcsite.jpg");
+  background-image: url("/images/bsidePhotos/previews/newmediaclubwebsite-prev.jpg");
 }
 .threepigs {
   background-size: cover;
-  background-image: url("/images/bsidePhotos/threepigs.jpg");
+  background-image: url("/images/bsidePhotos/previews/threelittlepigs-prev.jpg");
 }
 .respirationbelt {
   background-size: cover;
-  background-image: url("/images/bsidePhotos/respirationbelt.jpg");
+  background-image: url("/images/bsidePhotos/previews/oasisbts-prev.jpg");
 }
 .arexperience {
   background-size: cover;
-  background-image: url("/images/bsidePhotos/arexperience.jpg");
+  background-image: url("/images/bsidePhotos/previews/constellationbrands-prev.jpg");
 }
-
+.spacebeebop {
+  background-size: cover;
+  background-image: url("/images/bsidePhotos/previews/spacebeebop-prev.jpg");
+}
+.demoreelprev {
+  background-size: cover;
+  background-image: url("/images/bsidePhotos/previews/demoreel-prev.jpg");
+}
+.choremanage {
+  background-size: cover;
+  background-image: url("/images/bsidePhotos/previews/choremanage-prev.jpg");
+}
+.symbiosis {
+  background-size: cover;
+  background-image: url("/images/bsidePhotos/previews/abcsymbiosis-prev.jpg");
+}
+.cinema {
+  background-size: cover;
+  background-image: url("/images/bsidePhotos/previews/cinema-prev.jpg");
+}
 // bside heros
 
 .newmediaclubsiteHero {
@@ -1819,25 +1789,8 @@ p {
 //
 .bsideProjectHeroContainer {
   // position: absolute;
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
-  margin: 0;
-  display: flex;
-  // justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.288);
-  h3 {
-    width: 50%;
-    margin-left: 50px;
-  }
-  h1 {
-    width: 70%;
-    margin-left: 50px;
-  }
-  p {
-    width: 50%;
-    margin-left: 50px;
-  }
 }
 .heroFix {
   grid-column: 2/5;
@@ -1850,9 +1803,9 @@ p {
   margin: 0 auto;
   margin-top: calc(100vh / 3);
 }
-.bsideheroText {
-  // margin: 0 auto;
-}
+// .bsideheroText {
+//   // margin: 0 auto;
+// }
 .backArrow {
   display: inline-block;
   width: 50px;
@@ -1916,16 +1869,13 @@ p {
 .heroTopVideoSource {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   object-fit: cover;
   z-index: -1;
+  filter: brightness(0.3);
 }
 
 @media screen and (max-width: 1130px) {
-  .rectangleProject {
-    height: 815px;
-    border-radius: 10px;
-  }
   .squareProject {
     height: 400px;
     border-radius: 10px;
@@ -1946,10 +1896,6 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-  .rectangleProject {
-    height: 415px;
-    border-radius: 10px;
-  }
   .squareProject {
     height: 250px;
     border-radius: 10px;
@@ -1972,7 +1918,13 @@ p {
 .margin-bottom {
   margin-bottom: 100px;
 }
-.jakefrank:hover {
+.jfurl {
+  display: inline;
+}
+.jfurl:hover {
   cursor: pointer;
   color: #f6830f;
+}
+.colorNavWhite {
+  color: white;
 }

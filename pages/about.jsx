@@ -14,36 +14,54 @@ export default class About extends Component {
           <div className="wrapper">
             <Navigation className="navComponent " color={"#A2528A"} />
             <div className="homeHeroContainer wegmansWrapper whiteBg">
-              <div className="aboutImageContainer"></div>
+              <div className="aboutImageContainer">
+                <div className="aboutZukoImageContainer"></div>
+              </div>
               <div className="homeTextContainer aboutContainer darkText margin-bottom">
-                <div className="heyDiv darkText">Hey!</div>
+                <div className="heyDiv darkText">What's this guys deal?</div>
                 <div className="homePara">
-                  Hey! My name is Andrew Hurley and I am a{" "}
-                  <b>Product and Interaction Designer</b> who loves building
-                  engaging and unique experiences for users.
+                  My name is Andrew Hurley and I am a{" "}
+                  <b>Product and Systems Designer</b> who loves untangling
+                  complex information structures and put them back together
+                  better than before.
                 </div>
                 <div className="homePara">
-                  Creative and front end development, 3D design, electronics
-                  engineering and woodworking are a few of the hobbies I really
-                  enjoy when I want to create.{" "}
+                  My career has primarily focused on design systems, product
+                  feature development and strategizing for next-gen technologies
+                  like AI, AR, and web technologies.
                 </div>
                 <div className="homePara">
-                  But when I don’t want to make anything I love petting dogs,
-                  hiking, and skiing!
+                  In my free time you can usually find me training my dog to
+                  become therapy certfied, working on home renovations, or
+                  watering my lemon tree.
                 </div>
                 <div className="homePara">
-                  I love trying to solve any puzzles that get thrown at me or
-                  that I come up with myself with the various skillset I have
-                  acquired over my years in the New Media Design program at
-                  Rochester Institute of Technology.
+                  Any time I have left I spend working on my book series on
+                  design systems. Checkout my first book on the{" "}
+                  <a
+                    href="/images/uds-book.pdf"
+                    className="zigzag linkDisplayReset"
+                    target="_blank"
+                  >
+                    Universal Design Systems
+                  </a>{" "}
+                  concept.
+                </div>
+                <div className="homePara">
+                  If you are interested in seeing my development work you can
+                  checkout my{" "}
+                  <a
+                    href="https://github.com/HurleyAndrew"
+                    className="zigzag linkDisplayReset"
+                    target="_blank"
+                  >
+                    Github.
+                  </a>
                 </div>
                 <div className="homePara">
                   <b> Shoot me a message!</b>
                   <br></br>
-                  <a
-                    href="mailto:hurleymandrew@gmail.com"
-                    className="jakefrank"
-                  >
+                  <a href="mailto:hurleymandrew@gmail.com" className="jfurl">
                     hurleymandrew@gmail.com
                   </a>
                 </div>

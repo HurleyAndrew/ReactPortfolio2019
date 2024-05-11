@@ -6,15 +6,6 @@ import Head from "next/head";
 import { CommonMetaTags } from "../components/CommonMetaTags";
 
 export default class ConstellationBrands extends Component {
-  _isMounted = false;
-
-  componentDidMount() {
-    this._isMounted = true;
-  }
-
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
   render() {
     let color = "#00141B";
     let colorWhite = "#ffffff";
@@ -29,43 +20,36 @@ export default class ConstellationBrands extends Component {
 
         <div className="App noScrollBehavior">
           <div className="sidesContainer">
-            <div className="sides">
+            <div className="wegmansWrapper navContainer">
               <Link href={"/"}>
-                <div>A-Side</div>
-              </Link>{" "}
-              <div className="sideLine"></div>{" "}
+                <a className="navLink navItemOne colorNavWhite">Home</a>
+              </Link>
               <Link href={"/bside"}>
-                <div>B-Side</div>
+                <a className="navLink navItemTwo colorNavWhite">B-Side</a>
+              </Link>
+              <Link href={"/about"}>
+                <a className="navLink navItemThree colorNavWhite">About</a>
               </Link>
             </div>
           </div>
 
-          <video
-            className="heroTopVideoSource"
-            playsInline
-            autoPlay
-            muted
-            loop
-            poster={"/images/bsidePhotos/posters/constellation.jpg"}
-          >
-            <source
-              src={"/images/bsidePhotos/herovideos/constellationbrandsHero.mp4"}
-              type="video/mp4"
-            />
-          </video>
-
-          <div className="wegmansHero bsideProjectHeroContainer">
-            <div className="bsideheroText ">
-              <Link href="/bside">
-                <h3
-                  className="hoverCursor"
-                  style={{
-                    color: colorWhite,
-                  }}
-                >
-                  <div className="backArrow"></div>back to b-side projects
-                </h3>
-              </Link>
+          <div className="wegmansWrapper bsideProjectHeroContainer">
+            <video
+              className="heroTopVideoSource"
+              playsInline
+              autoPlay
+              muted
+              loop
+              poster={"/images/bsidePhotos/posters/constellation.jpg"}
+            >
+              <source
+                src={
+                  "/images/bsidePhotos/herovideos/constellationbrandsHero.mp4"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="wegmansHero ">
               <h1
                 style={{
                   color: colorWhite,
@@ -78,7 +62,7 @@ export default class ConstellationBrands extends Component {
                   color: colorWhite,
                 }}
               >
-                An AR experience for beer drinkers to learn more about what they
+                An AR experience for beer lovers to learn more about what they
                 are drinking and to discover new beverages.
               </p>
             </div>

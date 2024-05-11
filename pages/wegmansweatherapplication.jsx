@@ -27,7 +27,7 @@ export default class WegmansWeatherApplication extends Component {
                   color: color,
                 }}
               >
-                Summer 2019
+                2019-2020
               </h3>
               <h1
                 style={{
@@ -41,18 +41,17 @@ export default class WegmansWeatherApplication extends Component {
                   color: color,
                 }}
               >
-                I interned at Wegmans Food Market in Rochester New York over the
-                Summer of 2019. Me and one other RIT design student were tasked
-                with replacing their current email based notification platform
-                with a better digital solution.
+                Me and one other RIT design student were tasked with replacing
+                the existing email based notification platform with a better
+                digital solution.
               </p>
               <a
-                href="https://www.behance.net/gallery/81917587/Wegmans-Forecast"
+                href="images/wegmansImages/wegmans-process.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="processButton">
-                  <span>Process Deck</span>
+                  <span>Slide Deck</span>
                 </div>
               </a>
             </div>
@@ -66,21 +65,20 @@ export default class WegmansWeatherApplication extends Component {
               <div className="leftTag">BRIEF</div>
               <div className="rightDescription">
                 <p>
-                  Weather is a very important factor in the grocery industry.
-                  Knowing the weather ahead of time to determine what to stock
-                  or what percautions to take to keep customers and staff safe
-                  is indespensible.
+                  In the grocery industry, knowing the weather ahead of time to
+                  determine what to stock or what percautions to take to keep
+                  customers and staff safe is very important.
                 </p>
                 <p>
-                  The current method of weather information distribution is
-                  through mass emails containing the forcast and preparation
-                  instructions for each district. It is cited as being slow,
-                  tedius and inaccurate.
+                  The method of weather information distribution at the time for
+                  Wegmans was through mass emails containing the forcast and
+                  preparation instructions for each district. It is cited as
+                  being slow, tedius and even inaccurate at times.
                 </p>
                 <p>
                   A digital means of communication is needed to provide realtime
-                  reporting and user centric data to improve the efficiency and
-                  effectiveness of weather reporting.
+                  forcast reporting and user centric data to improve the
+                  efficiency and effectiveness of weather reporting.
                 </p>
               </div>
             </div>
@@ -108,11 +106,11 @@ export default class WegmansWeatherApplication extends Component {
                     color: color,
                   }}
                 >
-                  For a minimal viable product at the very least the ability to
-                  view regional weather reports. Going off that the next pieces
-                  to add would be the ability to recieve live notifications, add
-                  custom regions to a dashboard and have a radar to see current
-                  weather attributes.
+                  At the very least we needed the ability to view regional
+                  weather reports. Outside of that, being able to include the
+                  ability to recieve live notifications, add custom regions to a
+                  dashboard and have a radar to see current weather attributes
+                  would be beneficial.
                 </p>
                 <p
                   style={{
