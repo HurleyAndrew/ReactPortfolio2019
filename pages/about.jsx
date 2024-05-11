@@ -18,7 +18,9 @@ export default class About extends Component {
                 <div className="aboutZukoImageContainer"></div>
               </div>
               <div className="homeTextContainer aboutContainer darkText margin-bottom">
-                <div className="heyDiv darkText">What's this guys deal?</div>
+                <div className="heyDiv darkText">
+                  What&apos;s this guys deal?
+                </div>
                 <div className="homePara">
                   My name is Andrew Hurley and I am a{" "}
                   <b>Product and Systems Designer</b> who loves untangling
@@ -54,6 +56,7 @@ export default class About extends Component {
                     href="https://github.com/HurleyAndrew"
                     className="zigzag linkDisplayReset"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Github.
                   </a>

@@ -21,13 +21,13 @@ export default class ThreeLittlePigs extends Component {
         <div className="App noScrollBehavior">
           <div className="sidesContainer">
             <div className="wegmansWrapper navContainer">
-              <Link href={"/"}>
+              <Link legacyBehavior href={"/"}>
                 <a className="navLink navItemOne colorNavWhite">Home</a>
               </Link>
-              <Link href={"/bside"}>
+              <Link legacyBehavior href={"/bside"}>
                 <a className="navLink navItemTwo colorNavWhite">B-Side</a>
               </Link>
-              <Link href={"/about"}>
+              <Link legacyBehavior href={"/about"}>
                 <a className="navLink navItemThree colorNavWhite">About</a>
               </Link>
             </div>

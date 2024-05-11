@@ -41,9 +41,9 @@ export default class Ancera extends Component {
                   color: color,
                 }}
               >
-                Focused on feature creation for Ancera's biomedical analytics
-                application that focused on providing farmers with realtime data
-                on disease spread amongst livestock.
+                Focused on feature creation for Ancera&apos;s biomedical
+                analytics application that focused on providing farmers with
+                realtime data on disease spread amongst livestock.
               </p>
               <a
                 href="https://www.ancera.com/"
@@ -246,7 +246,7 @@ export default class Ancera extends Component {
                   <p>Chore Management</p>
                 </div>
               </a>
-              <Link href={"/d3design/"}>
+              <Link legacyBehavior href={"/d3design/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/d3designAd.jpg"}
@@ -257,7 +257,7 @@ export default class Ancera extends Component {
                   <p>3D Design</p>
                 </div>
               </Link>
-              <Link href={"/coincare/"}>
+              <Link legacyBehavior href={"/coincare/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/coincareAd.jpg"}

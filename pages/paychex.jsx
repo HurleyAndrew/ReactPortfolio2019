@@ -48,8 +48,8 @@ export default class Paychex extends Component {
                 <br></br>
                 <b>
                   Unfortunately I cannot show too much of my work as it is
-                  confidential. I'll show what I can but reach out if you want
-                  more details.
+                  confidential. I&apos;ll show what I can but reach out if you
+                  want more details.
                 </b>
               </p>
               <a
@@ -248,7 +248,7 @@ export default class Paychex extends Component {
                     color: color,
                   }}
                 >
-                  But that's not all!
+                  But that&apos;s not all!
                 </div>
                 <p
                   style={{
@@ -427,7 +427,7 @@ export default class Paychex extends Component {
                   <p>Chore Management</p>
                 </div>
               </a>
-              <Link href={"/d3design/"}>
+              <Link legacyBehavior href={"/d3design/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/d3designAd.jpg"}
@@ -438,7 +438,7 @@ export default class Paychex extends Component {
                   <p>3D Design</p>
                 </div>
               </Link>
-              <Link href={"/coincare/"}>
+              <Link legacyBehavior href={"/coincare/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/coincareAd.jpg"}

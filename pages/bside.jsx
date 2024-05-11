@@ -28,7 +28,7 @@ export default class BSide extends Component {
 
             <div className="bsideProjects margin-bottom">
               <div className="b-rail">
-                <Link href={"/respirationbelt"}>
+                <Link legacyBehavior href={"/respirationbelt"}>
                   <div className="rectangleProject respirationbelt">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">
@@ -40,19 +40,19 @@ export default class BSide extends Component {
                     </div>
                   </div>
                 </Link>
-                <Link href={"/abcofsymbiosis"}>
+                <Link legacyBehavior href={"/abcofsymbiosis"}>
                   <div className="rectangleProject symbiosis">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">
                         Print, Visual Design, 3D Design
                       </div>
                       <div className="sidebprojectTitle">
-                        ABC's of Symbiosis
+                        ABC&apos;s of Symbiosis
                       </div>
                     </div>
                   </div>
                 </Link>
-                <Link href={"/woodworking"}>
+                <Link legacyBehavior href={"/woodworking"}>
                   <div className="rectangleProject woodworking">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">
@@ -64,7 +64,7 @@ export default class BSide extends Component {
                     </div>
                   </div>
                 </Link>
-                <Link href={"/threelittlepigs"}>
+                <Link legacyBehavior href={"/threelittlepigs"}>
                   <div className="rectangleProject threepigs">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">
@@ -76,7 +76,7 @@ export default class BSide extends Component {
                     </div>
                   </div>
                 </Link>
-                <Link href={"/constellationbrands"}>
+                <Link legacyBehavior href={"/constellationbrands"}>
                   <div className="rectangleProject arexperience">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">
@@ -88,7 +88,10 @@ export default class BSide extends Component {
                     </div>
                   </div>
                 </Link>
-                <Link href={"https://amh5267.cad.rit.edu/rhythmgame/"}>
+                <Link
+                  legacyBehavior
+                  href={"https://amh5267.cad.rit.edu/rhythmgame/"}
+                >
                   <div className="rectangleProject spacebeebop">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">
@@ -99,7 +102,7 @@ export default class BSide extends Component {
                   </div>
                 </Link>
 
-                <Link href={"/newmediaclubsite"}>
+                <Link legacyBehavior href={"/newmediaclubsite"}>
                   <div className="rectangleProject nmcsite">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">
@@ -125,7 +128,7 @@ export default class BSide extends Component {
                     </div>
                   </div>
                 </Link>
-                <Link href={"/d3design"}>
+                <Link legacyBehavior href={"/d3design"}>
                   <div className="rectangleProject cinema">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">
@@ -135,7 +138,7 @@ export default class BSide extends Component {
                     </div>
                   </div>
                 </Link>
-                <Link href={"/demoreel"}>
+                <Link legacyBehavior href={"/demoreel"}>
                   <div className="rectangleProject demoreelprev">
                     <div className="sidebprojecttextContainer ">
                       <div className="sidebprojectTags">Everything!</div>

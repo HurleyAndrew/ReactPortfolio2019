@@ -42,8 +42,8 @@ const TemplateWrapper = ({ children }) => (
 
       <title>Andrew Hurley</title>
 
-      <link rel="shortcut icon" href={Favicon} type="image/x-icon" />
-      <link rel="icon" href={Favicon} type="image/x-icon" />
+      <Link legacyBehavior rel="shortcut icon" href={Favicon} type="image/x-icon" />
+      <Link legacyBehavior rel="icon" href={Favicon} type="image/x-icon" />
       {console.log('helmet entered')}
     </Helmet> */}
     <div>{children()}</div>

@@ -14,7 +14,7 @@ class ProjectPreview extends React.Component {
     function createElement(prop, link, color) {
       if (prop === "internal") {
         return (
-          <Link href={link}>
+          <Link legacyBehavior href={link}>
             <a className="Button projectButton">
               <span>Check It Out</span>
             </a>

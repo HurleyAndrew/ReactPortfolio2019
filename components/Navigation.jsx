@@ -4,10 +4,10 @@ import Link from "next/link";
 function Navigation() {
   return (
     <div className="wegmansWrapper navContainer">
-      <Link href={"/"}>
+      <Link legacyBehavior href={"/"}>
         <a className="navLink navItemOne">Home</a>
       </Link>
-      <Link href={"/bside"}>
+      <Link legacyBehavior href={"/bside"}>
         <a className="navLink navItemTwo">B-Side</a>
       </Link>
       <a
@@ -18,7 +18,7 @@ function Navigation() {
       >
         Resume
       </a>
-      <Link href={"/about"}>
+      <Link legacyBehavior href={"/about"}>
         <a className="navLink navItemFour">About</a>
       </Link>
     </div>

@@ -372,7 +372,7 @@ export default class Abcofsymbiosis extends Component {
                   <p>Chore Management</p>
                 </div>
               </a>
-              <Link href={"/d3design/"}>
+              <Link legacyBehavior href={"/d3design/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/d3designAd.jpg"}
@@ -383,7 +383,7 @@ export default class Abcofsymbiosis extends Component {
                   <p>3D Design</p>
                 </div>
               </Link>
-              <Link href={"/coincare/"}>
+              <Link legacyBehavior href={"/coincare/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/coincareAd.jpg"}
