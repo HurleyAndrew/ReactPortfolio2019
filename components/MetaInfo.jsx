@@ -1,6 +1,6 @@
-import React from 'react'
-import Favicon from '../images/favicon.png'
-import Social from '../images/social.jpg'
+import React from "react";
+import Favicon from "../images/favicon.png";
+import Social from "../images/social.jpg";
 class MetaInfo extends React.Component {
   render() {
     return (
@@ -40,8 +40,8 @@ class MetaInfo extends React.Component {
         <title>Andrew Hurley</title>
         <link rel="icon" href={Favicon} type="image/x-icon" />
       </div>
-    )
+    );
   }
 }
 
-export default MetaInfo
+export default MetaInfo;

@@ -6,15 +6,6 @@ import Link from "next/link";
 import { CommonMetaTags } from "../components/CommonMetaTags";
 
 export default class ThreeLittlePigs extends Component {
-  _isMounted = false;
-
-  componentDidMount() {
-    this._isMounted = true;
-  }
-
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
   render() {
     let color = "#00141B";
     let colorWhite = "#ffffff";
@@ -29,43 +20,34 @@ export default class ThreeLittlePigs extends Component {
 
         <div className="App noScrollBehavior">
           <div className="sidesContainer">
-            <div className="sides">
-              <Link href={"/"}>
-                <div>A-Side</div>
-              </Link>{" "}
-              <div className="sideLine"></div>{" "}
-              <Link href={"/bside"}>
-                <div>B-Side</div>
+            <div className="wegmansWrapper navContainer">
+              <Link legacyBehavior href={"/"}>
+                <a className="navLink navItemOne colorNavWhite">Home</a>
+              </Link>
+              <Link legacyBehavior href={"/bside"}>
+                <a className="navLink navItemTwo colorNavWhite">B-Side</a>
+              </Link>
+              <Link legacyBehavior href={"/about"}>
+                <a className="navLink navItemThree colorNavWhite">About</a>
               </Link>
             </div>
           </div>
 
-          <video
-            className="heroTopVideoSource"
-            playsInline
-            autoPlay
-            muted
-            loop
-            poster={"/images/bsidePhotos/posters/threelittlepigs.jpg"}
-          >
-            <source
-              src={"/images/bsidePhotos/herovideos/threelittlepigsHero.mp4"}
-              type="video/mp4"
-            />
-          </video>
-
-          <div className="wegmansHero  bsideProjectHeroContainer">
-            <div className="bsideheroText ">
-              <Link href="/bside">
-                <h3
-                  className="hoverCursor"
-                  style={{
-                    color: colorWhite,
-                  }}
-                >
-                  <div className="backArrow"></div>back to b-side projects
-                </h3>
-              </Link>
+          <div className="wegmansWrapper bsideProjectHeroContainer">
+            <video
+              className="heroTopVideoSource"
+              playsInline
+              autoPlay
+              muted
+              loop
+              poster={"/images/bsidePhotos/posters/threelittlepigs.jpg"}
+            >
+              <source
+                src={"/images/bsidePhotos/herovideos/threelittlepigsHero.mp4"}
+                type="video/mp4"
+              />
+            </video>
+            <div className="wegmansHero">
               <h1
                 style={{
                   color: colorWhite,

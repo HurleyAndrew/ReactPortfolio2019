@@ -7,15 +7,6 @@ import Link from "next/link";
 import { CommonMetaTags } from "../components/CommonMetaTags";
 
 export default class Abcofsymbiosis extends Component {
-  _isMounted = false;
-
-  componentDidMount() {
-    this._isMounted = true;
-  }
-
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
   render() {
     let color = "#00141B";
 
@@ -51,11 +42,11 @@ export default class Abcofsymbiosis extends Component {
                 }}
               >
                 We were seperated into two groups of 9 for our Interactive 4
-                project. We were tasked with creating a ABC book or other print
-                media for children. Our group decided on the concept of pairing
-                up creatures in nature that have symbiotic relationships. A
-                symbiotic relationship is one where both creatures benefit from
-                one another.
+                project. The project was to create a piece of media for children
+                based around the alphabet. Our group decided on the concept of
+                pairing up creatures in nature that have symbiotic
+                relationships. A symbiotic relationship is one where both
+                creatures benefit from one another.
               </p>
               <a
                 href="http://students.miguelcardona.com/abcs-2019/symbiosis/andrew_hurley/"
@@ -381,7 +372,7 @@ export default class Abcofsymbiosis extends Component {
                   <p>Chore Management</p>
                 </div>
               </a>
-              <Link href={"/d3design/"}>
+              <Link legacyBehavior href={"/d3design/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/d3designAd.jpg"}
@@ -392,7 +383,7 @@ export default class Abcofsymbiosis extends Component {
                   <p>3D Design</p>
                 </div>
               </Link>
-              <Link href={"/coincare/"}>
+              <Link legacyBehavior href={"/coincare/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/coincareAd.jpg"}

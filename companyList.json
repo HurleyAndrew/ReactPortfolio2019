@@ -1,0 +1,44 @@
+{
+  "Projects": [
+    {
+      "id": 1,
+      "title": "Universal Design Systems",
+      "date": "Book",
+      "link": "/images/uds-book.pdf",
+      "image": "uds-prev.jpg",
+      "color": "00141B",
+      "linkType": "external",
+      "info": "I wrote a book that covers various design system concepts and the idea of the universal design system that I've developed throughout my career working with design systems. This book focuses on the benefits the universal design system has over traditional systems."
+    },
+    {
+      "id": 2,
+      "title": "Paychex",
+      "date": "2021-Present",
+      "link": "/paychex/",
+      "image": "paychex-prev.jpg",
+      "color": "00141B",
+      "linkType": "internal",
+      "info": "Designed and shipped features and strategies for Paychex's Flex product and created a new design system to support the entire Paychex organization from the ground up."
+    },
+    {
+      "id": 3,
+      "title": "Ancera",
+      "date": "2020-2021",
+      "link": "/ancera/",
+      "image": "ancera-prev.jpg",
+      "color": "00141B",
+      "linkType": "internal",
+      "info": "Focused on feature creation for Ancera's biomedical analytics application that provides farmers with insights and data on disease spread amongst livestock."
+    },
+    {
+      "id": 4,
+      "title": "Wegmans",
+      "date": "2019-2020",
+      "link": "/wegmansweatherapplication/",
+      "image": "wegmans-prev.jpg",
+      "color": "00141B",
+      "linkType": "internal",
+      "info": "Worked on a management and monitoring application designed for Wegmans Food Markets to aid in informing store managers and shipping providers of potentially hazardous weather conditions that could require planning and prep."
+    }
+  ]
+}

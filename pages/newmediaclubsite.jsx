@@ -5,15 +5,6 @@ import Link from "next/link";
 import { CommonMetaTags } from "../components/CommonMetaTags";
 
 export default class NewMediaClubSite extends Component {
-  _isMounted = false;
-
-  componentDidMount() {
-    this._isMounted = true;
-  }
-
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
   render() {
     let color = "#00141B";
     let colorWhite = "#ffffff";
@@ -28,34 +19,26 @@ export default class NewMediaClubSite extends Component {
 
         <div className="App noScrollBehavior">
           <div className="sidesContainer">
-            <div className="sides">
-              <Link href={"/"}>
-                <div>A-Side</div>
-              </Link>{" "}
-              <div className="sideLine"></div>{" "}
-              <Link href={"/bside"}>
-                <div>B-Side</div>
+            <div className="wegmansWrapper navContainer">
+              <Link legacyBehavior href={"/"}>
+                <a className="navLink navItemOne colorNavWhite">Home</a>
+              </Link>
+              <Link legacyBehavior href={"/bside"}>
+                <a className="navLink navItemTwo colorNavWhite">B-Side</a>
+              </Link>
+              <Link legacyBehavior href={"/about"}>
+                <a className="navLink navItemThree colorNavWhite">About</a>
               </Link>
             </div>
           </div>
-          <div className="wegmansHero newmediaclubsiteHero bsideProjectHeroContainer">
-            <div className="bsideheroText ">
-              <Link href="/bside">
-                <h3
-                  className="hoverCursor"
-                  style={{
-                    color: colorWhite,
-                  }}
-                >
-                  <div className="backArrow"></div>back to b-side projects
-                </h3>
-              </Link>
+          <div className="wegmansWrapper newmediaclubsiteHero bsideProjectHeroContainer">
+            <div className="wegmansHero">
               <h1
                 style={{
                   color: colorWhite,
                 }}
               >
-                New Media Club Site Design and Code
+                New Media Club Website
               </h1>
               <p
                 style={{
@@ -81,7 +64,7 @@ export default class NewMediaClubSite extends Component {
                   backgroundColor: color,
                 }}
               >
-                WHAT{"'"}S UP
+                Overview
               </div>
               <div className="rightDescription">
                 <p>
@@ -92,7 +75,7 @@ export default class NewMediaClubSite extends Component {
                     href="https://www.jacobdfrank.com/"
                     rel="noreferer noopener noreferrer"
                     target="_blank"
-                    className="jakefrank"
+                    className="jfurl"
                   >
                     jacobdfrank.com
                   </a>
@@ -100,7 +83,7 @@ export default class NewMediaClubSite extends Component {
                   the site to include features such as mentor and alumni
                   galleries as well as a resources page to help new students get
                   started in design. To do this I had to scrap a lot of the
-                  original code and implement new features like JSON populatino
+                  original code and implement new features like JSON population
                   for events and profile cards.
                 </p>
               </div>

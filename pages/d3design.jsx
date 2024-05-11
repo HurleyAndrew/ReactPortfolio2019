@@ -66,7 +66,7 @@ class D3design extends Component {
 
           <div className="projectAdvertisementContainer">
             <div>
-              <Link href={"/abcofsymbiosis/"}>
+              <Link legacyBehavior href={"/abcofsymbiosis/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/wegmansAd.jpg"}
@@ -76,7 +76,7 @@ class D3design extends Component {
                   <p>ABC{"'"}s of Symbiosis</p>
                 </div>
               </Link>
-              <Link href={"/d3design/"}>
+              <Link legacyBehavior href={"/d3design/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/d3designAd.jpg"}
@@ -85,7 +85,7 @@ class D3design extends Component {
                   <p>3D Design</p>
                 </div>
               </Link>
-              <Link href={"/coincare/"}>
+              <Link legacyBehavior href={"/coincare/"}>
                 <div className="advertisementItem">
                   <img
                     src={"/images/advertisement/coincareAd.jpg"}

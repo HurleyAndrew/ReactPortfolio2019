@@ -6,15 +6,6 @@ import Link from "next/link";
 import { CommonMetaTags } from "../components/CommonMetaTags";
 
 export default class RespirationBelt extends Component {
-  _isMounted = false;
-
-  componentDidMount() {
-    this._isMounted = true;
-  }
-
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
   render() {
     let color = "#00141B";
     let colorWhite = "#ffffff";
@@ -22,55 +13,46 @@ export default class RespirationBelt extends Component {
     return (
       <div>
         <Head>
-          <title>Respiration Belt and Visualization</title>
+          <title>Oasis Interactive Experience</title>
           <CommonMetaTags />
         </Head>
 
         <div className="App noScrollBehavior">
           <div className="sidesContainer">
-            <div className="sides">
-              <Link href={"/"}>
-                <div>A-Side</div>
-              </Link>{" "}
-              <div className="sideLine"></div>{" "}
-              <Link href={"/bside"}>
-                <div>B-Side</div>
+            <div className="wegmansWrapper navContainer">
+              <Link legacyBehavior href={"/"}>
+                <a className="navLink navItemOne colorNavWhite">Home</a>
+              </Link>
+              <Link legacyBehavior href={"/bside"}>
+                <a className="navLink navItemTwo colorNavWhite">B-Side</a>
+              </Link>
+              <Link legacyBehavior href={"/about"}>
+                <a className="navLink navItemThree colorNavWhite">About</a>
               </Link>
             </div>
           </div>
 
-          <video
-            className="heroTopVideoSource"
-            playsInline
-            autoPlay
-            muted
-            loop
-            poster={"/images/bsidePhotos/posters/respiration.jpg"}
-          >
-            <source
-              src={"/images/bsidePhotos/herovideos/respirationbeltHero.mp4"}
-              type="video/mp4"
-            />
-          </video>
-
-          <div className="wegmansHero  bsideProjectHeroContainer">
-            <div className="bsideheroText ">
-              <Link href="/bside">
-                <h3
-                  className="hoverCursor"
-                  style={{
-                    color: colorWhite,
-                  }}
-                >
-                  <div className="backArrow"></div>back to b-side projects
-                </h3>
-              </Link>
+          <div className="wegmansWrapper bsideProjectHeroContainer">
+            <video
+              className="heroTopVideoSource"
+              playsInline
+              autoPlay
+              muted
+              loop
+              poster={"/images/bsidePhotos/posters/respiration.jpg"}
+            >
+              <source
+                src={"/images/bsidePhotos/herovideos/respirationbeltHero.mp4"}
+                type="video/mp4"
+              />
+            </video>
+            <div className="wegmansHero">
               <h1
                 style={{
                   color: colorWhite,
                 }}
               >
-                Respiration Belt and Kinect Visualization
+                Oasis Interactive Experience
               </h1>
               <p
                 style={{
@@ -80,7 +62,21 @@ export default class RespirationBelt extends Component {
                 The two major parts of my capstone project, the respiration belt
                 used to analyze breathing patterns on users and a visualization
                 that greets visitors of the exhibit as they walk in.
+                <br></br>
+                <br></br>
+                If just want to see the final product click below, and if you
+                want to see the behind the scenes then keep scrolling!
               </p>
+              <div className="homeButtons">
+                <a
+                  href="https://oasis.cad.rit.edu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="Button resumeButton"
+                >
+                  <div>Project Site</div>
+                </a>
+              </div>
             </div>
           </div>
           <div className="wegmansWrapper ">
@@ -101,14 +97,10 @@ export default class RespirationBelt extends Component {
               <div className="rightDescription">
                 <p>
                   The engineering behind my capstone project for New Media
-                  Design. This is still in progress and will be exhibited at the
-                  Imagine RIT creativity fair on April 25th. I am working on all
-                  aspects of this project from design to code to creating the
-                  physical devices. It is where all my skills get a chance to
-                  shine. Our capstone project is titles Oasis and it is a
-                  breathing meditation exhibit where visitors perform a
-                  breathing exercise while wearing out belt so we can provide
-                  visual feedback in the form of generative art in an effort to
+                  Design. The capstone project is called Oasis and is a
+                  meditation exhibit where visitors perform a breathing exercise
+                  while wearing a biometric belt so we can provide visual
+                  feedback in the form of generative art in an effort to
                   de-stress and show how easy and enjoyable it is to meditate at
                   home.
                 </p>
