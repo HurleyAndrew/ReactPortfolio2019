@@ -113,6 +113,7 @@ export default class BSide extends Component {
                   </div>
                 </Link>
                 <Link
+                  legacyBehavior
                   href={
                     "https://www.behance.net/gallery/74068673/Chore-Management"
                   }
