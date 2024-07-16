@@ -1,6 +1,7 @@
 import React from "react";
 import Favicon from "../images/favicon.png";
 import Social from "../images/social.jpg";
+
 class MetaInfo extends React.Component {
   render() {
     return (

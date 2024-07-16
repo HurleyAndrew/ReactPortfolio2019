@@ -6,7 +6,7 @@ import ModalImage from "react-modal-image";
 import Link from "next/link";
 import Head from "next/head";
 import { CommonMetaTags } from "../components/CommonMetaTags";
-
+import GoogleAnalytics from "../components/GoogleAnalytics";
 class D3design extends Component {
   createElements = () => {
     let elementArray = [];
@@ -22,8 +22,6 @@ class D3design extends Component {
         </div>
       );
     }
-
-    // elementArray.push(<div className="d3designDivider"></div>)
 
     for (let index = 12; index < 17; index++) {
       elementArray.push(
@@ -49,6 +47,7 @@ class D3design extends Component {
 
           <CommonMetaTags />
         </Head>
+        <GoogleAnalytics />
         <div className="App">
           <div className="wrapper">
             <Navigation className="navComponent " color={"#FFAF39"} />

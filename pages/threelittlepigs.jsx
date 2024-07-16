@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import { CommonMetaTags } from "../components/CommonMetaTags";
-
+import GoogleAnalytics from "../components/GoogleAnalytics";
 export default class ThreeLittlePigs extends Component {
   render() {
     let color = "#00141B";
@@ -17,7 +17,7 @@ export default class ThreeLittlePigs extends Component {
 
           <CommonMetaTags />
         </Head>
-
+        <GoogleAnalytics />
         <div className="App noScrollBehavior">
           <div className="sidesContainer">
             <div className="wegmansWrapper navContainer">

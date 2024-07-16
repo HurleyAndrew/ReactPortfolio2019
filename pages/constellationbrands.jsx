@@ -2,9 +2,9 @@ import React, { Component } from "react";
 
 import Link from "next/link";
 import Head from "next/head";
-// import heroVideo from "";
-import { CommonMetaTags } from "../components/CommonMetaTags";
 
+import { CommonMetaTags } from "../components/CommonMetaTags";
+import GoogleAnalytics from "../components/GoogleAnalytics";
 export default class ConstellationBrands extends Component {
   render() {
     let color = "#00141B";
@@ -17,7 +17,7 @@ export default class ConstellationBrands extends Component {
 
           <CommonMetaTags />
         </Head>
-
+        <GoogleAnalytics />
         <div className="App noScrollBehavior">
           <div className="sidesContainer">
             <div className="wegmansWrapper navContainer">
