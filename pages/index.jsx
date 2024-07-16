@@ -4,6 +4,7 @@ import ProjectNavigation from "./../components/ProjectNavigation";
 import Head from "next/head";
 import Link from "next/link";
 import { CommonMetaTags } from "../components/CommonMetaTags";
+import GoogleAnalytics from "../components/GoogleAnalytics";
 
 export default class IndexPage extends Component {
   render() {
@@ -14,7 +15,7 @@ export default class IndexPage extends Component {
 
           <CommonMetaTags />
         </Head>
-
+        <GoogleAnalytics />
         <div className="App">
           <div className="backgroundDiv">
             <div className="wegmansWrapper navContainer">

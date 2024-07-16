@@ -4,7 +4,7 @@ import { CommonMetaTags } from "../components/CommonMetaTags";
 import Navigation from "../components/Navigation";
 import ProjectsAdvertisement from "../components/ProjectsAdvertisement";
 import Head from "next/head";
-
+import GoogleAnalytics from "../components/GoogleAnalytics";
 export default class DemoReel extends Component {
   render() {
     return (
@@ -13,6 +13,7 @@ export default class DemoReel extends Component {
           <title>Demo Reel</title>
           <CommonMetaTags />
         </Head>
+        <GoogleAnalytics />
         <div>
           <div className="App">
             <div className="wrapper">

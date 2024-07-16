@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { CommonMetaTags } from "../components/CommonMetaTags";
-
+import GoogleAnalytics from "../components/GoogleAnalytics";
 export default class NewMediaClubSite extends Component {
   render() {
     let color = "#00141B";
@@ -16,7 +16,7 @@ export default class NewMediaClubSite extends Component {
 
           <CommonMetaTags />
         </Head>
-
+        <GoogleAnalytics />
         <div className="App noScrollBehavior">
           <div className="sidesContainer">
             <div className="wegmansWrapper navContainer">

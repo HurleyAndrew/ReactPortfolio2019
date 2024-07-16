@@ -5,6 +5,7 @@ import Link from "next/link";
 
 import Navigation from "../components/Navigation";
 import { CommonMetaTags } from "../components/CommonMetaTags";
+import GoogleAnalytics from "../components/GoogleAnalytics";
 export default class WegmansWeatherApplication extends Component {
   render() {
     let color = "#00141B";
@@ -15,6 +16,7 @@ export default class WegmansWeatherApplication extends Component {
 
           <CommonMetaTags />
         </Head>
+        <GoogleAnalytics />
         <div className="App">
           <Navigation
             color={"#00141B"}

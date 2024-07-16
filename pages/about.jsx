@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navigation from "../components/Navigation";
 import Head from "next/head";
+import GoogleAnalytics from "../components/GoogleAnalytics";
 
 export default class About extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class About extends Component {
         <Head>
           <title>About</title>
         </Head>
-
+        <GoogleAnalytics />
         <div className="App">
           <div className="wrapper">
             <Navigation className="navComponent " color={"#A2528A"} />

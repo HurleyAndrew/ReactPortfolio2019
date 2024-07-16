@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 import Head from "next/head";
 import Link from "next/link";
 import { CommonMetaTags } from "../components/CommonMetaTags";
-
+import GoogleAnalytics from "../components/GoogleAnalytics";
 export default class BSide extends Component {
   render() {
     return (
@@ -12,7 +12,7 @@ export default class BSide extends Component {
           <title>B-Side</title>
           <CommonMetaTags />
         </Head>
-
+        <GoogleAnalytics />
         <div className="App">
           <Navigation />
           <div className="wrapper">

@@ -5,6 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import { CommonMetaTags } from "../components/CommonMetaTags";
+import GoogleAnalytics from "../components/GoogleAnalytics";
 
 export default class Abcofsymbiosis extends Component {
   render() {
@@ -17,7 +18,7 @@ export default class Abcofsymbiosis extends Component {
 
           <CommonMetaTags />
         </Head>
-
+        <GoogleAnalytics />
         <div className="App noScrollBehavior">
           <Navigation color={"#00141B"}></Navigation>
           <div className="wegmansWrapper">

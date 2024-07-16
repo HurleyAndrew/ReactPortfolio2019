@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import { CommonMetaTags } from "../components/CommonMetaTags";
-
+import GoogleAnalytics from "../components/GoogleAnalytics";
 export default class RespirationBelt extends Component {
   render() {
     let color = "#00141B";
@@ -16,7 +16,7 @@ export default class RespirationBelt extends Component {
           <title>Oasis Interactive Experience</title>
           <CommonMetaTags />
         </Head>
-
+        <GoogleAnalytics />
         <div className="App noScrollBehavior">
           <div className="sidesContainer">
             <div className="wegmansWrapper navContainer">

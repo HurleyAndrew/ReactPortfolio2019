@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import { CommonMetaTags } from "../components/CommonMetaTags";
-
+import GoogleAnalytics from "../components/GoogleAnalytics";
 export default class Paychex extends Component {
   render() {
     let color = "#00141B";
@@ -17,7 +17,7 @@ export default class Paychex extends Component {
 
           <CommonMetaTags />
         </Head>
-
+        <GoogleAnalytics />
         <div className="App noScrollBehavior">
           <Navigation color={"#00141B"}></Navigation>
           <div className="wegmansWrapper">
