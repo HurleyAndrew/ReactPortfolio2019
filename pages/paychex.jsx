@@ -389,21 +389,7 @@ export default class Paychex extends Component {
                   developers, and act as a guide for future products picking up
                   our agnostic framework.
                   <br></br>
-                  <br></br>I have also created many proposals for new and
-                  modified components. Checkout one of my proposals that I did a
-                  while ago to revamp our tables.
                 </p>
-                <a
-                  href="images/paychexImages/table-proposal.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="processButton">
-                    <span>Tables Proposal</span>
-                  </div>
-                </a>
-                <br></br>
-                <br></br>
               </div>
             </div>
           </div>
