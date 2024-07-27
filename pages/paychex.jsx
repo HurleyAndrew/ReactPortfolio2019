@@ -170,20 +170,8 @@ export default class Paychex extends Component {
                   restrictions of other systems. With the agnostic system as the
                   foundation, multiple applications can be spun up on top of it
                   using any technology they prefer. <br></br>
-                  <br></br>Check out part of a larger presentation I gave on the
-                  design system focused on tokens.
                 </p>
-                <a
-                  href="images/paychexImages/pay-token-lesson.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="processButton">
-                    <span>Token Lesson</span>
-                  </div>
-                </a>
-                <br></br>
-                <br></br>
+
                 <div className="rightDescriptionImage">
                   <img
                     src={"/images/paychexImages/pay-3.jpg"}
@@ -388,22 +376,7 @@ export default class Paychex extends Component {
                   consistent, provide greater transparency for our fellow
                   developers, and act as a guide for future products picking up
                   our agnostic framework.
-                  <br></br>
-                  <br></br>I have also created many proposals for new and
-                  modified components. Checkout one of my proposals that I did a
-                  while ago to revamp our tables.
                 </p>
-                <a
-                  href="images/paychexImages/table-proposal.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="processButton">
-                    <span>Tables Proposal</span>
-                  </div>
-                </a>
-                <br></br>
-                <br></br>
               </div>
             </div>
           </div>
