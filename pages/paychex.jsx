@@ -376,6 +376,7 @@ export default class Paychex extends Component {
                   consistent, provide greater transparency for our fellow
                   developers, and act as a guide for future products picking up
                   our agnostic framework.
+
                 </p>
               </div>
             </div>
